@@ -11,10 +11,9 @@ export const lessonOne = {
 export const lessonTwo = {
   chineseTitle: "你叫什么名字？",
   englishTitle: "What is your name?",
-  lineOne: "你好。",
-  lineTwo: "您好。",
-  lineThree: "你叫什么名字？",
-  lineFour: "我叫朱虹。你叫什么名字？",
-  lineFive: "我叫刘明。",
+  lineOne: "你好2。",
+  lineTwo: "您好2。",
+  lineThree: "你叫什么名字？2",
+  lineFour: "我叫朱虹。你叫什么名字？2",
+  lineFive: "我叫刘明2。",
 };
-

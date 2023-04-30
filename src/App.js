@@ -12,34 +12,8 @@ function App() {
       <NavBar></NavBar>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route
-          path="/lesson"
-          element={
-            <Lesson
-              chineseTitle={lessonOne.chineseTitle}
-              englishTitle={lessonOne.englishTitle}
-              lineOne={lessonOne.lineOne}
-              lineTwo={lessonOne.lineTwo}
-              lineThree={lessonOne.lineThree}
-              lineFour={lessonOne.lineFour}
-              lineFive={lessonOne.lineFive}
-            />
-          }
-        />
-        <Route
-          path="/lessonTwo"
-          element={
-            <Lesson
-              chineseTitle={lessonTwo.chineseTitle}
-              englishTitle={lessonTwo.englishTitle}
-              lineOne={lessonTwo.lineOne}
-              lineTwo={lessonTwo.lineTwo}
-              lineThree={lessonTwo.lineThree}
-              lineFour={lessonTwo.lineFour}
-              lineFive={lessonTwo.lineFive}
-            />
-          }
-        />
+        <Route path="/lesson" element={<Lesson LessonText={lessonOne} />} />
+        <Route path="/lessonTwo" element={<Lesson LessonText={lessonTwo} />} />
       </Routes>
     </BrowserRouter>
   );
