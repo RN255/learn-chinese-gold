@@ -10,7 +10,7 @@ import {
   lessonThree,
   lessonFour,
   lessonFive,
-} from "./props/lessonText";
+} from "./modules/lessonText";
 
 function App() {
   return (
