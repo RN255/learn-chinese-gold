@@ -1,0 +1,20 @@
+/* the home page  */
+
+#homePage {
+  background-image: url("../assets/mainBackground.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #fff;
+}
+
+#homePage h1 {
+  width: fit-content;
+  margin: auto;
+  margin-top: 25vh;
+}
+
+#homePage p {
+  width: fit-content;
+  margin: auto;
+}
