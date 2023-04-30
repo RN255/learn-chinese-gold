@@ -4,7 +4,13 @@ import Lesson from "./pages/Lesson";
 import NavBar from "./components/NavBar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { lessonOne, lessonTwo } from "./props/lessonText";
+import {
+  lessonOne,
+  lessonTwo,
+  lessonThree,
+  lessonFour,
+  lessonFive,
+} from "./props/lessonText";
 
 function App() {
   return (
@@ -12,8 +18,20 @@ function App() {
       <NavBar></NavBar>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/lesson" element={<Lesson LessonText={lessonOne} />} />
+        <Route path="/lessonOne" element={<Lesson LessonText={lessonOne} />} />
         <Route path="/lessonTwo" element={<Lesson LessonText={lessonTwo} />} />
+        <Route
+          path="/lessonThree"
+          element={<Lesson LessonText={lessonThree} />}
+        />
+        <Route
+          path="/lessonFour"
+          element={<Lesson LessonText={lessonFour} />}
+        />
+        <Route
+          path="/lessonFive"
+          element={<Lesson LessonText={lessonFive} />}
+        />
       </Routes>
     </BrowserRouter>
   );

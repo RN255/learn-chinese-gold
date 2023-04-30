@@ -17,3 +17,13 @@
   width: fit-content;
   margin: auto;
 }
+
+/* translation list  */
+
+.translatedListBox {
+  display: flex;
+}
+
+.translatedListBox p {
+  width: 200px;
+}

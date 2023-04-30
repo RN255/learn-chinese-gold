@@ -29,14 +29,23 @@ export default function NavBar() {
                   title="Dropdown"
                   id={`offcanvasNavbarDropdown-expand-md`}
                 >
-                  <NavDropdown.Item href="#action3">
+                  <NavDropdown.Item>
                     <Link to="/">Home</Link>
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="#action4">
-                    <Link to="/lesson">Lesson One</Link>
+                  <NavDropdown.Item>
+                    <Link to="/lessonOne">Lesson One</Link>
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="#action4">
+                  <NavDropdown.Item>
                     <Link to="/lessonTwo">Lesson Two</Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link to="/lessonThree">Lesson Three</Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link to="/lessonFour">Lesson Four</Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link to="/lessonFive">Lesson Five</Link>
                   </NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="#action1">Home</Nav.Link>
