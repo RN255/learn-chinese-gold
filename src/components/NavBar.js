@@ -4,11 +4,12 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import { Link } from "react-router-dom";
 
 export default function NavBar() {
   return (
     <>
-      <Navbar key="md" bg="light" expand="md" className="mb-3">
+      <Navbar key="md" bg="light" expand="md" className="mb-0">
         <Container fluid>
           <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
@@ -28,13 +29,14 @@ export default function NavBar() {
                   title="Dropdown"
                   id={`offcanvasNavbarDropdown-expand-md`}
                 >
-                  <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action4">
-                    Another action
+                  <NavDropdown.Item href="#action3">
+                    <Link to="/">Home</Link>
                   </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action5">
-                    Something else here
+                  <NavDropdown.Item href="#action4">
+                    <Link to="/lesson">Lesson One</Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="#action4">
+                    <Link to="/lessonTwo">Lesson Two</Link>
                   </NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="#action1">Home</Nav.Link>
