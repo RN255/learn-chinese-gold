@@ -16,21 +16,13 @@ export default function MainConvo(props) {
     <div className="mainConversation container pt-3">
       <div className="row justify-content-center mb-4">
         <div className="col col-md-3">
-          <button
-            type="button"
-            className="btn btn-light w-100"
-            onClick={handleClickEng}
-          >
-            Show English
+          <button type="button" className="btn w-100" onClick={handleClickEng}>
+            {!engIsShown ? "Show English" : "Hide English"}
           </button>
         </div>
         <div className="col col-md-3">
-          <button
-            type="button"
-            className="btn btn-light w-100"
-            onClick={handleClickPin}
-          >
-            Show Pinyin
+          <button type="button" className="btn w-100" onClick={handleClickPin}>
+            {!pinIsShown ? "Show PinYin" : "Hide PinYin"}
           </button>
         </div>
       </div>
@@ -69,45 +61,50 @@ export default function MainConvo(props) {
           {engIsShown && <p>{props.LessonText.sentanceTranslationEngFive}</p>}
         </div>
       </div>
-      <div className="row">
-        <div className="col">
-          {props.LessonText.convoLineSix && (
+
+      {props.LessonText.convoLineSix && (
+        <div className="row">
+          <div className="col">
             <p>{props.LessonText.convoLineSix}</p>
-          )}
-          {props.LessonText.sentanceTranslationPinSix && pinIsShown &&(
-            <p>{props.LessonText.sentanceTranslationPinSix}</p>
-          )}
-          {props.LessonText.sentanceTranslationEngSix && engIsShown && (
-            <p>{props.LessonText.sentanceTranslationEngSix}</p>
-          )}
+
+            {props.LessonText.sentanceTranslationPinSix && pinIsShown && (
+              <p>{props.LessonText.sentanceTranslationPinSix}</p>
+            )}
+            {props.LessonText.sentanceTranslationEngSix && engIsShown && (
+              <p>{props.LessonText.sentanceTranslationEngSix}</p>
+            )}
+          </div>
         </div>
-      </div>
-      <div className="row">
-        <div className="col">
-          {props.LessonText.convoLineSeven && (
+      )}
+
+      {props.LessonText.convoLineSeven && (
+        <div className="row">
+          <div className="col">
             <p>{props.LessonText.convoLineSeven}</p>
-          )}
-          {props.LessonText.sentanceTranslationPinSeven && pinIsShown &&(
-            <p>{props.LessonText.sentanceTranslationPinSeven}</p>
-          )}
-          {props.LessonText.sentanceTranslationEngSeven && engIsShown && (
-            <p>{props.LessonText.sentanceTranslationEngSeven}</p>
-          )}
+            {props.LessonText.sentanceTranslationPinSeven && pinIsShown && (
+              <p>{props.LessonText.sentanceTranslationPinSeven}</p>
+            )}
+            {props.LessonText.sentanceTranslationEngSeven && engIsShown && (
+              <p>{props.LessonText.sentanceTranslationEngSeven}</p>
+            )}
+          </div>
         </div>
-      </div>
-      <div className="row">
-        <div className="col">
-          {props.LessonText.convoLineEight && (
+      )}
+
+      {props.LessonText.convoLineEight && (
+        <div className="row">
+          <div className="col">
             <p>{props.LessonText.convoLineEight}</p>
-          )}
-          {props.LessonText.sentanceTranslationPinEight && pinIsShown &&(
-            <p>{props.LessonText.sentanceTranslationPinEight}</p>
-          )}
-          {props.LessonText.sentanceTranslationEngEight && engIsShown && (
-            <p>{props.LessonText.sentanceTranslationEngEight}</p>
-          )}
+
+            {props.LessonText.sentanceTranslationPinEight && pinIsShown && (
+              <p>{props.LessonText.sentanceTranslationPinEight}</p>
+            )}
+            {props.LessonText.sentanceTranslationEngEight && engIsShown && (
+              <p>{props.LessonText.sentanceTranslationEngEight}</p>
+            )}
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 }
