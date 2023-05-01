@@ -11,7 +11,9 @@ export default function NavBar() {
     <>
       <Navbar key="md" bg="light" expand="md" className="mb-0">
         <Container fluid>
-          <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
+          <Navbar.Brand>
+            <Link to="/">Let's Learn Chinese</Link>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-md`}

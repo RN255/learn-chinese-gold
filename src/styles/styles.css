@@ -31,17 +31,25 @@
   font-size: 1.5rem;
 }
 
-.mainConversation p {
+.mainConversation .row {
   padding: 7px;
   margin: 5px 0;
 }
 
-.mainConversation p:nth-child(odd) {
+.mainConversation .row .col p {
+  margin: 0;
+}
+
+/* .mainConversation .row .col  {
+  padding: 10px;
+} */
+
+.mainConversation .row:nth-child(odd):not(:first-child) .col {
   background-color: #c8e7f550;
   border-radius: 5px;
 }
 
-.mainConversation p:nth-child(even) {
+.mainConversation .row:nth-child(even) .col {
   background-color: #f6d2e050;
   border-radius: 5px;
 }
