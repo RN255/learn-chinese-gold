@@ -1,13 +1,9 @@
 import React from "react";
+import "../styles/styles.css";
 
 export default function MainConvo(props) {
   return (
-    <>
-      <h2>
-        Main Conversation
-        {props.LessonText.titleChinese}
-        {props.LessonText.titleEnglish}
-      </h2>
+    <div className="mainConversation container pt-3">
       <p>{props.LessonText.convoLineOne}</p>
       <p>{props.LessonText.convoLineTwo}</p>
       <p>{props.LessonText.convoLineThree}</p>
@@ -21,6 +17,6 @@ export default function MainConvo(props) {
       {props.LessonText.convoLineEight && (
         <p>{props.LessonText.convoLineEight}</p>
       )}
-    </>
+    </div>
   );
 }

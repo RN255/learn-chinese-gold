@@ -1,3 +1,10 @@
+/* import fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&family=Noto+Serif+SC:wght@200;300;400;500;600;700;900&display=swap");
+
+* {
+  font-family: "Noto Serif SC", serif, "Noto Sans SC", sans-serif;
+}
+
 /* the home page  */
 
 #homePage {
@@ -18,12 +25,39 @@
   margin: auto;
 }
 
-/* translation list  */
+/* main conversation  */
 
-.translatedListBox {
-  display: flex;
+.mainConversation {
+  font-size: 1.5rem;
 }
 
-.translatedListBox p {
-  width: 200px;
+.mainConversation p {
+  padding: 7px;
+  margin: 5px 0;
+}
+
+.mainConversation p:nth-child(odd) {
+  background-color: #c8e7f550;
+  border-radius: 5px;
+}
+
+.mainConversation p:nth-child(even) {
+  background-color: #f6d2e050;
+  border-radius: 5px;
+}
+
+/* translation list  */
+
+.translatedWords p {
+  margin: 0;
+}
+
+.translatedWords .translationChinWord {
+  font-size: 1.5rem;
+}
+
+/* audio player */
+
+audio {
+  width: 100%;
 }
