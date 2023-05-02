@@ -1,5 +1,6 @@
 import "./App.css";
 import Home from "./pages/Home";
+import LessonsIndex from "./pages/LessonsIndex";
 import Lesson from "./pages/Lesson";
 import NavBar from "./components/NavBar";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -18,6 +19,7 @@ function App() {
       <NavBar></NavBar>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/lessonsIndex" element={<LessonsIndex />} />
         <Route path="/lessonOne" element={<Lesson LessonText={lessonOne} />} />
         <Route path="/lessonTwo" element={<Lesson LessonText={lessonTwo} />} />
         <Route

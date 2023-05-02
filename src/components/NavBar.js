@@ -2,17 +2,24 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { Link } from "react-router-dom";
 
 export default function NavBar() {
   return (
     <>
-      <Navbar key="md" bg="light" expand="md" className="mb-0">
+      <Navbar
+        collapseOnSelect
+        key="md"
+        expand="md"
+        className="navBar mb-0"
+      >
         <Container fluid>
           <Navbar.Brand>
-            <Link to="/">Let's Learn Chinese</Link>
+            <Link to="/" className="navLogo">
+              <h1>中文</h1>
+              <h1>Let's Learn Chinese</h1>
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
           <Navbar.Offcanvas
@@ -27,32 +34,17 @@ export default function NavBar() {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <NavDropdown
-                  title="Dropdown"
-                  id={`offcanvasNavbarDropdown-expand-md`}
+                <Nav.Link href="/" to="/" className="navLink">
+                  Home
+                </Nav.Link>
+                <Nav.Link
+                  href="/lessonsIndex"
+                  to="/lessonsIndex"
+                  className="navLink"
                 >
-                  <NavDropdown.Item>
-                    <Link to="/">Home</Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    <Link to="/lessonOne">Lesson One</Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    <Link to="/lessonTwo">Lesson Two</Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    <Link to="/lessonThree">Lesson Three</Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    <Link to="/lessonFour">Lesson Four</Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    <Link to="/lessonFive">Lesson Five</Link>
-                  </NavDropdown.Item>
-                </NavDropdown>
-                <Nav.Link href="#action1">Home</Nav.Link>
-                <Nav.Link href="#action2">Link</Nav.Link>
-              </Nav>{" "}
+                  Lessons
+                </Nav.Link>
+              </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
         </Container>

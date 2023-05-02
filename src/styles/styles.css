@@ -5,14 +5,38 @@
   font-family: "Noto Serif SC", serif, "Noto Sans SC", sans-serif;
 }
 
+/* nav bar  */
+
+.navBar .navLogo {
+  text-decoration: none;
+  display: flex;
+  /* align-items: flex-end; */
+}
+
+.navBar h1:first-of-type {
+  color: #2a9df4;
+}
+
+.navBar h1:nth-of-type(2) {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  color: #000;
+  align-self: center;
+}
+
+.navBar .navLink {
+  text-decoration: none;
+  color: #000;
+}
+
+.navBar .navLink:hover {
+  text-decoration: none;
+  color: #00000050;
+}
+
 /* the home page  */
 
 #homePage {
-  background-image: url("../assets/images/mainBackground.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  color: #fff;
 }
 
 #homePage h1 {
