@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "../styles/styles.css";
+import boyImg from "../assets/images/boy.png";
+import girlImg from "../assets/images/girl.png";
 
 export default function MainConvo(props) {
   const [engIsShown, setEngIsShown] = useState(false);
@@ -28,35 +30,70 @@ export default function MainConvo(props) {
       </div>
       <div className="row">
         <div className="col">
-          <p>{props.LessonText.convoLineOne}</p>
+          <div>
+            {props.LessonText.firstSpeakerMale ? (
+              <img src={boyImg}></img>
+            ) : (
+              <img src={girlImg}></img>
+            )}
+            <p>{props.LessonText.convoLineOne}</p>
+          </div>
           {pinIsShown && <p>{props.LessonText.sentanceTranslationPinOne}</p>}
           {engIsShown && <p>{props.LessonText.sentanceTranslationEngOne}</p>}
         </div>
       </div>
       <div className="row">
         <div className="col">
-          <p>{props.LessonText.convoLineTwo}</p>
+          <div>
+            {props.LessonText.firstSpeakerMale ? (
+              <img src={girlImg}></img>
+            ) : (
+              <img src={boyImg}></img>
+            )}
+            <p>{props.LessonText.convoLineTwo}</p>
+          </div>
           {pinIsShown && <p>{props.LessonText.sentanceTranslationPinTwo}</p>}
           {engIsShown && <p>{props.LessonText.sentanceTranslationEngTwo}</p>}
         </div>
       </div>
       <div className="row">
         <div className="col">
-          <p>{props.LessonText.convoLineThree}</p>
+          <div>
+            {props.LessonText.firstSpeakerMale ? (
+              <img src={boyImg}></img>
+            ) : (
+              <img src={girlImg}></img>
+            )}
+            <p>{props.LessonText.convoLineThree}</p>
+          </div>
           {pinIsShown && <p>{props.LessonText.sentanceTranslationPinThree}</p>}
           {engIsShown && <p>{props.LessonText.sentanceTranslationEngThree}</p>}
         </div>
       </div>
       <div className="row">
         <div className="col">
-          <p>{props.LessonText.convoLineFour}</p>
+          <div>
+            {props.LessonText.firstSpeakerMale ? (
+              <img src={girlImg}></img>
+            ) : (
+              <img src={boyImg}></img>
+            )}
+            <p>{props.LessonText.convoLineFour}</p>
+          </div>
           {pinIsShown && <p>{props.LessonText.sentanceTranslationPinFour}</p>}
           {engIsShown && <p>{props.LessonText.sentanceTranslationEngFour}</p>}
         </div>
       </div>
       <div className="row">
         <div className="col">
-          <p>{props.LessonText.convoLineFive}</p>
+          <div>
+            {props.LessonText.firstSpeakerMale ? (
+              <img src={boyImg}></img>
+            ) : (
+              <img src={girlImg}></img>
+            )}
+            <p>{props.LessonText.convoLineFive}</p>
+          </div>
           {pinIsShown && <p>{props.LessonText.sentanceTranslationPinFive}</p>}
           {engIsShown && <p>{props.LessonText.sentanceTranslationEngFive}</p>}
         </div>
@@ -65,7 +102,14 @@ export default function MainConvo(props) {
       {props.LessonText.convoLineSix && (
         <div className="row">
           <div className="col">
-            <p>{props.LessonText.convoLineSix}</p>
+            <div>
+              {props.LessonText.firstSpeakerMale ? (
+                <img src={girlImg}></img>
+              ) : (
+                <img src={boyImg}></img>
+              )}
+              <p>{props.LessonText.convoLineSix}</p>
+            </div>
 
             {props.LessonText.sentanceTranslationPinSix && pinIsShown && (
               <p>{props.LessonText.sentanceTranslationPinSix}</p>
@@ -80,7 +124,14 @@ export default function MainConvo(props) {
       {props.LessonText.convoLineSeven && (
         <div className="row">
           <div className="col">
-            <p>{props.LessonText.convoLineSeven}</p>
+            <div>
+              {props.LessonText.firstSpeakerMale ? (
+                <img src={boyImg}></img>
+              ) : (
+                <img src={girlImg}></img>
+              )}
+              <p>{props.LessonText.convoLineSeven}</p>
+            </div>
             {props.LessonText.sentanceTranslationPinSeven && pinIsShown && (
               <p>{props.LessonText.sentanceTranslationPinSeven}</p>
             )}
@@ -94,7 +145,14 @@ export default function MainConvo(props) {
       {props.LessonText.convoLineEight && (
         <div className="row">
           <div className="col">
-            <p>{props.LessonText.convoLineEight}</p>
+            <div>
+              {props.LessonText.firstSpeakerMale ? (
+                <img src={girlImg}></img>
+              ) : (
+                <img src={boyImg}></img>
+              )}
+              <p>{props.LessonText.convoLineEight}</p>
+            </div>
 
             {props.LessonText.sentanceTranslationPinEight && pinIsShown && (
               <p>{props.LessonText.sentanceTranslationPinEight}</p>

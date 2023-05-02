@@ -8,7 +8,7 @@
 /* the home page  */
 
 #homePage {
-  background-image: url("../assets/mainBackground.jpg");
+  background-image: url("../assets/images/mainBackground.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -27,10 +27,6 @@
 
 /* main conversation  */
 
-.mainConversation {
-  font-size: 1.5rem;
-}
-
 .mainConversation .btn {
   background-color: #c8e7f550 !important;
 }
@@ -45,28 +41,35 @@
   padding-bottom: 5px;
 }
 
+.mainConversation .row .col div {
+  display: flex;
+  align-items: center;
+}
+
+.mainConversation .row .col img {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+}
+
+.mainConversation .row .col div p {
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+}
+
 .mainConversation .row .col p {
   margin: 0;
-}
+  font-size: 1.0rem;
+  margin-left: 2.5rem;
 
-.mainConversation .row .col p:nth-of-type(2) {
-  font-size: 1rem;
 }
-
-.mainConversation .row .col p:nth-of-type(3) {
-  font-size: 1rem;
-}
-
-/* .mainConversation .row .col  {
-  padding: 10px;
-} */
 
 .mainConversation .row:nth-child(odd):not(:first-child) .col {
   background-color: #c8e7f550;
   border-radius: 5px;
 }
 
-.mainConversation .row:nth-child(even) .col {
+.mainConversation .row:nth-child(even):not(#notme) .col {
   background-color: #f6d2e050;
   border-radius: 5px;
 }

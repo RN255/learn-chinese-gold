@@ -62,6 +62,7 @@ export const lessonOne = {
   keyPhraseChinFour: "我叫......",
   keyPhrasePinFour: "Wǒ jìao...",
   keyPhraseEngFour: "I’m called...",
+  firstSpeakerMale: true,
 };
 
 export const lessonTwo = {
@@ -134,6 +135,7 @@ export const lessonTwo = {
   keyPhraseChinFive: "我是中国人。",
   keyPhrasePinFive: "Wǒ shì zhōngguórén.",
   keyPhraseEngFive: "I am Chinese.",
+  firstSpeakerMale: true,
 };
 
 export const lessonThree = {
@@ -212,6 +214,7 @@ export const lessonThree = {
   keyPhraseChinFive: "她/他不是老师。",
   keyPhrasePinFive: "Tā/tā búshì lǎoshī.",
   keyPhraseEngFive: "She/he is not a teacher",
+  firstSpeakerMale: true,
 };
 
 export const lessonFour = {
@@ -278,6 +281,7 @@ export const lessonFour = {
   keyPhraseChinThree: "你是学生还是老师？",
   keyPhrasePinThree: "Nǐ shì xuésheng háishì lǎoshī?",
   keyPhraseEngThree: "Are you a student or a teacher?",
+  firstSpeakerMale: false,
 };
 
 export const lessonFive = {
@@ -341,4 +345,5 @@ export const lessonFive = {
   keyPhraseChinFour: "不客气 。",
   keyPhrasePinFour: "Búkèqi.",
   keyPhraseEngFour: "It’s OK",
+  firstSpeakerMale: true,
 };
