@@ -4,6 +4,7 @@ import TitleSection from "../components/TitleSection";
 import MainConvo from "../components/MainConvo";
 import TranslatedWords from "../components/TranslatedWords";
 import Audio from "../components/Audio";
+import KeyPhrases from "../components/KeyPhrases";
 
 export default function Lesson(props) {
   return (
@@ -12,6 +13,7 @@ export default function Lesson(props) {
       <Audio LessonText={props.LessonText}></Audio>
       <MainConvo LessonText={props.LessonText}></MainConvo>
       <TranslatedWords LessonText={props.LessonText}></TranslatedWords>
+      <KeyPhrases LessonText={props.LessonText}></KeyPhrases>
     </div>
   );
 }

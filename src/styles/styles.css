@@ -59,9 +59,8 @@
 
 .mainConversation .row .col p {
   margin: 0;
-  font-size: 1.0rem;
+  font-size: 1rem;
   margin-left: 2.5rem;
-
 }
 
 .mainConversation .row:nth-child(odd):not(:first-child) .col {
@@ -69,7 +68,7 @@
   border-radius: 5px;
 }
 
-.mainConversation .row:nth-child(even):not(#notme) .col {
+.mainConversation .row:nth-child(even) .col {
   background-color: #f6d2e050;
   border-radius: 5px;
 }
@@ -89,3 +88,33 @@
 audio {
   width: 100%;
 }
+
+/* key phrases  */
+
+.keyPhrases .btn {
+  background-color: #c8e7f550 !important;
+}
+
+.keyPhrases .btn:hover {
+  background-color: #c8e7f5 !important;
+}
+
+.keyPhrases .row:not(:nth-child(2)) .col {
+  background-color: #f6d2e050;
+  border-radius: 5px;
+}
+
+.keyPhrases .row .col {
+  margin: 5px 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.keyPhrases p {
+  margin: 0;
+}
+
+.keyPhrases .row .col p:first-child {
+  font-size: 1.5rem;
+}
+

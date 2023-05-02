@@ -3,7 +3,7 @@ import "../styles/styles.css";
 
 export default function TranslatedWords(props) {
   return (
-    <div className="translatedWords container pt-3 pb-5">
+    <div className="translatedWords container pt-3">
       <div className="row mb-3">
         <h2>Word list</h2>
       </div>
