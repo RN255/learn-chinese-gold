@@ -8,12 +8,7 @@ import { Link } from "react-router-dom";
 export default function NavBar() {
   return (
     <>
-      <Navbar
-        collapseOnSelect
-        key="md"
-        expand="md"
-        className="navBar mb-0"
-      >
+      <Navbar collapseOnSelect key="md" expand="md" className="navBar mb-0">
         <Container fluid>
           <Navbar.Brand>
             <Link to="/" className="navLogo">
@@ -29,7 +24,7 @@ export default function NavBar() {
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id={`offcanvasNavbarLabel-expand-md`}>
-                Offcanvas
+                Menu
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>

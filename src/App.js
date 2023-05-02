@@ -20,18 +20,18 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/lessonsIndex" element={<LessonsIndex />} />
-        <Route path="/lessonOne" element={<Lesson LessonText={lessonOne} />} />
-        <Route path="/lessonTwo" element={<Lesson LessonText={lessonTwo} />} />
+        <Route path="/lesson1" element={<Lesson LessonText={lessonOne} />} />
+        <Route path="/lesson2" element={<Lesson LessonText={lessonTwo} />} />
         <Route
-          path="/lessonThree"
+          path="/lesson3"
           element={<Lesson LessonText={lessonThree} />}
         />
         <Route
-          path="/lessonFour"
+          path="/lesson4"
           element={<Lesson LessonText={lessonFour} />}
         />
         <Route
-          path="/lessonFive"
+          path="/lesson5"
           element={<Lesson LessonText={lessonFive} />}
         />
       </Routes>

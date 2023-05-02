@@ -8,15 +8,15 @@ export default function LessonsIndex() {
         <div className="col">
           <Link to="/">Home</Link>
           <br></br>
-          <Link to="/lessonOne">Lesson One</Link>
+          <Link to="/lesson1">Lesson One</Link>
           <br></br>
-          <Link to="/lessonTwo">Lesson Two</Link>
+          <Link to="/lesson2">Lesson Two</Link>
           <br></br>
-          <Link to="/lessonThree">Lesson Three</Link>
+          <Link to="/lesson3">Lesson Three</Link>
           <br></br>
-          <Link to="/lessonFour">Lesson Four</Link>
+          <Link to="/lesson4">Lesson Four</Link>
           <br></br>
-          <Link to="/lessonFive">Lesson Five</Link>
+          <Link to="/lesson5">Lesson Five</Link>
           <br></br>
         </div>
       </div>
