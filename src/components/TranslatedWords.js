@@ -3,7 +3,7 @@ import "../styles/styles.css";
 
 export default function TranslatedWords(props) {
   return (
-    <div className="translatedWords container pt-3">
+    <div className="translatedWords container pt-5">
       <div className="row mb-3">
         <h2>Word list</h2>
       </div>
@@ -14,7 +14,7 @@ export default function TranslatedWords(props) {
         <div className="col">
           <p>{props.LessonText.translationPinWordOne}</p>
         </div>
-        <div className="col">
+        <div className="col translationEngWord">
           <p>{props.LessonText.translationEngWordOne}</p>
         </div>
       </div>
@@ -26,7 +26,7 @@ export default function TranslatedWords(props) {
         <div className="col">
           <p>{props.LessonText.translationPinWordTwo}</p>
         </div>
-        <div className="col">
+        <div className="col translationEngWord">
           <p>{props.LessonText.translationEngWordTwo}</p>
         </div>
       </div>
@@ -38,7 +38,7 @@ export default function TranslatedWords(props) {
         <div className="col">
           <p>{props.LessonText.translationPinWordThree}</p>
         </div>
-        <div className="col">
+        <div className="col translationEngWord">
           <p>{props.LessonText.translationEngWordThree}</p>
         </div>
       </div>
@@ -50,7 +50,7 @@ export default function TranslatedWords(props) {
         <div className="col">
           <p>{props.LessonText.translationPinWordFour}</p>
         </div>
-        <div className="col">
+        <div className="col translationEngWord">
           <p>{props.LessonText.translationEngWordFour}</p>
         </div>
       </div>
@@ -62,7 +62,7 @@ export default function TranslatedWords(props) {
         <div className="col">
           <p>{props.LessonText.translationPinWordFive}</p>
         </div>
-        <div className="col">
+        <div className="col translationEngWord">
           <p>{props.LessonText.translationEngWordFive}</p>
         </div>
       </div>
@@ -74,7 +74,7 @@ export default function TranslatedWords(props) {
         <div className="col">
           <p>{props.LessonText.translationPinWordSix}</p>
         </div>
-        <div className="col">
+        <div className="col translationEngWord">
           <p>{props.LessonText.translationEngWordSix}</p>
         </div>
       </div>
@@ -86,7 +86,7 @@ export default function TranslatedWords(props) {
         <div className="col">
           <p>{props.LessonText.translationPinWordSeven}</p>
         </div>
-        <div className="col">
+        <div className="col translationEngWord">
           <p>{props.LessonText.translationEngWordSeven}</p>
         </div>
       </div>
@@ -98,7 +98,7 @@ export default function TranslatedWords(props) {
         <div className="col">
           <p>{props.LessonText.translationPinWordEight}</p>
         </div>
-        <div className="col">
+        <div className="col translationEngWord">
           <p>{props.LessonText.translationEngWordEight}</p>
         </div>
       </div>
@@ -110,7 +110,7 @@ export default function TranslatedWords(props) {
         <div className="col">
           <p>{props.LessonText.translationPinWordNine}</p>
         </div>
-        <div className="col">
+        <div className="col translationEngWord">
           <p>{props.LessonText.translationEngWordNine}</p>
         </div>
       </div>
@@ -122,7 +122,7 @@ export default function TranslatedWords(props) {
         <div className="col">
           <p>{props.LessonText.translationPinWordTen}</p>
         </div>
-        <div className="col">
+        <div className="col translationEngWord">
           <p>{props.LessonText.translationEngWordTen}</p>
         </div>
       </div>
@@ -134,7 +134,7 @@ export default function TranslatedWords(props) {
         <div className="col">
           <p>{props.LessonText.translationPinWordEleven}</p>
         </div>
-        <div className="col">
+        <div className="col translationEngWord">
           <p>{props.LessonText.translationEngWordEleven}</p>
         </div>
       </div>
@@ -146,7 +146,7 @@ export default function TranslatedWords(props) {
         <div className="col">
           <p>{props.LessonText.translationPinWordTwelve}</p>
         </div>
-        <div className="col">
+        <div className="col translationEngWord">
           <p>{props.LessonText.translationEngWordTwelve}</p>
         </div>
       </div>
