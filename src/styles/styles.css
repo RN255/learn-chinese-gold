@@ -49,6 +49,32 @@
   margin: auto;
 }
 
+/* lesson select buttons  */
+
+.sideBar .lessonSelectButtons {
+  color: #2a9df4;
+  text-decoration: none;
+  /* border: #000 solid 1px; */
+}
+
+.sideBar .lessonSelectButtons:hover {
+  color: #2a9df4;
+  text-decoration: underline;
+}
+
+.sideBar .lessonsIndexButton {
+  color: #2a9df4;
+  text-decoration: none;
+  /* border: #000 solid 1px; */
+
+}
+
+.sideBar .lessonsIndexButton:hover {
+  color: #2a9df4;
+  text-decoration: none;
+  background-color: #2a9df410 !important;
+}
+
 /* main conversation  */
 
 .mainConversation .btn {
