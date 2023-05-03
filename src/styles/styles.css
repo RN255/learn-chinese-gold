@@ -49,6 +49,12 @@
   margin: auto;
 }
 
+/* lesson index */
+
+.lessonIndex .row .col {
+  text-decoration: none !important;
+}
+
 /* lesson select buttons  */
 
 .sideBar .lessonSelectButtons {
@@ -61,7 +67,6 @@
   color: #2a9df4;
   text-decoration: none;
   background-color: #2a9df410 !important;
-
 }
 
 .sideBar .lessonsIndexButton {

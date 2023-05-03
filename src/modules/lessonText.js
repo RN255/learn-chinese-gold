@@ -354,7 +354,7 @@ export const arrayOfLessons = [
   {
     lessonNumber: "1",
     titleChinese: "你叫什么名字？",
-    titleEnglish: " What is your name?",
+    titleEnglish: "What is your name?",
     convoLineOne: "你好。",
     convoLineTwo: "您好。",
     convoLineThree: "你叫什么名字？",
