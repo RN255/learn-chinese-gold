@@ -2,15 +2,7 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { Link } from "react-router-dom";
-import {
-  arrayOfLessons,
-  lessonOne,
-  lessonTwo,
-  lessonThree,
-  lessonFour,
-  lessonFive,
-} from "../modules/lessonText";
-import LessonSideBarList from "./LessonSideBarList";
+import { arrayOfLessons } from "../modules/lessonText";
 
 export default function SideBar(props) {
   const [show, setShow] = useState(false);
@@ -80,40 +72,17 @@ export default function SideBar(props) {
             </Offcanvas.Header>
           </div>
           <Offcanvas.Body>
-            <div className="row">
-              <Link to="/lesson1" onClick={handleClose}>
-                <LessonSideBarList LessonText={lessonOne} />
-              </Link>
-            </div>
-            <div className="row">
-              <Link to="/lesson2" onClick={handleClose}>
-                <LessonSideBarList LessonText={lessonTwo} />
-              </Link>
-            </div>
-            <div className="row">
-              <Link to="/lesson3" onClick={handleClose}>
-                <LessonSideBarList LessonText={lessonThree} />
-              </Link>
-            </div>
-            <div className="row">
-              <Link to="/lesson4" onClick={handleClose}>
-                <LessonSideBarList LessonText={lessonFour} />
-              </Link>
-            </div>
-            <div className="row">
-              <Link to="/lesson5" onClick={handleClose}>
-                <LessonSideBarList LessonText={lessonFive} />
-              </Link>
-            </div>
-            <div className="row">
-              {arrayOfLessons.map((item) => (
-                <li key={item}>
-                  {item.lessonNumber}
-                  {item.titleEnglish}
-                  {item.titleChinese}
-                </li>
-              ))}
-            </div>
+            {arrayOfLessons.map((item) => (
+              <div className="row">
+                <Link
+                  key={item}
+                  to={`/lesson${item.lessonNumber}`}
+                  onClick={handleClose}
+                >
+                  {item.lessonNumber} {item.titleEnglish}
+                </Link>
+              </div>
+            ))}
           </Offcanvas.Body>
         </div>
       </Offcanvas>
