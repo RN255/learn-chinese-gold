@@ -13,7 +13,7 @@ export default function KeyPhrases(props) {
 
   return (
     <div className="keyPhrases container pt-5 pb-5">
-      <div className="row mb-3">
+      <div className="row mb-3 text-center">
         <h2>Key Phrases</h2>
       </div>
 

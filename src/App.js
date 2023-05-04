@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <NavBar></NavBar>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home LessonText={arrayOfLessons[0]}/>} />
         <Route path="/lessonsIndex" element={<LessonsIndex />} />
 
         {arrayOfLessons.map((item) => (

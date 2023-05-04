@@ -4,10 +4,10 @@ import "../styles/styles.css";
 export default function TranslatedWords(props) {
   return (
     <div className="translatedWords container pt-5">
-      <div className="row mb-3">
+      <div className="row mb-3 text-center">
         <h2>Word list</h2>
       </div>
-      <div className="row ms-md-1">
+      <div className="row">
         <div className="col translationChinWord">
           <p>{props.LessonText.translationChinWordOne}</p>
         </div>
@@ -19,7 +19,7 @@ export default function TranslatedWords(props) {
         </div>
       </div>
 
-      <div className="row ms-md-1">
+      <div className="row">
         <div className="col translationChinWord">
           <p>{props.LessonText.translationChinWordTwo}</p>
         </div>
@@ -31,7 +31,7 @@ export default function TranslatedWords(props) {
         </div>
       </div>
 
-      <div className="row ms-md-1">
+      <div className="row">
         <div className="col translationChinWord">
           <p>{props.LessonText.translationChinWordThree}</p>
         </div>
@@ -43,7 +43,7 @@ export default function TranslatedWords(props) {
         </div>
       </div>
 
-      <div className="row ms-md-1">
+      <div className="row">
         <div className="col translationChinWord">
           <p>{props.LessonText.translationChinWordFour}</p>
         </div>
@@ -55,7 +55,7 @@ export default function TranslatedWords(props) {
         </div>
       </div>
 
-      <div className="row ms-md-1">
+      <div className="row">
         <div className="col translationChinWord">
           <p>{props.LessonText.translationChinWordFive}</p>
         </div>
@@ -67,7 +67,7 @@ export default function TranslatedWords(props) {
         </div>
       </div>
 
-      <div className="row ms-md-1">
+      <div className="row">
         <div className="col translationChinWord">
           <p>{props.LessonText.translationChinWordSix}</p>
         </div>
@@ -79,7 +79,7 @@ export default function TranslatedWords(props) {
         </div>
       </div>
 
-      <div className="row ms-md-1">
+      <div className="row">
         <div className="col translationChinWord">
           <p>{props.LessonText.translationChinWordSeven}</p>
         </div>
@@ -91,7 +91,7 @@ export default function TranslatedWords(props) {
         </div>
       </div>
 
-      <div className="row ms-md-1">
+      <div className="row">
         <div className="col translationChinWord">
           <p>{props.LessonText.translationChinWordEight}</p>
         </div>
@@ -103,7 +103,7 @@ export default function TranslatedWords(props) {
         </div>
       </div>
 
-      <div className="row ms-md-1">
+      <div className="row">
         <div className="col translationChinWord">
           <p>{props.LessonText.translationChinWordNine}</p>
         </div>
@@ -115,7 +115,7 @@ export default function TranslatedWords(props) {
         </div>
       </div>
 
-      <div className="row ms-md-1">
+      <div className="row">
         <div className="col translationChinWord">
           <p>{props.LessonText.translationChinWordTen}</p>
         </div>
@@ -127,7 +127,7 @@ export default function TranslatedWords(props) {
         </div>
       </div>
 
-      <div className="row ms-md-1">
+      <div className="row">
         <div className="col translationChinWord">
           <p>{props.LessonText.translationChinWordEleven}</p>
         </div>
@@ -139,7 +139,7 @@ export default function TranslatedWords(props) {
         </div>
       </div>
 
-      <div className="row ms-md-1">
+      <div className="row">
         <div className="col translationChinWord">
           <p>{props.LessonText.translationChinWordTwelve}</p>
         </div>
