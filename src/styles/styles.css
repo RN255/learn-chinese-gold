@@ -55,6 +55,18 @@
   text-decoration: none !important;
 }
 
+.lessonIndex .LessonItem {
+  color: #2a9df4;
+}
+
+.lessonIndex .LessonItem:hover {
+  color: #1d6daa;
+}
+
+.lessonIndex .LessonItem div:first-of-type {
+  color: #000000;
+}
+
 /* lesson select buttons  */
 
 .sideBar .lessonSelectButtons {
@@ -81,14 +93,13 @@
   background-color: #2a9df410 !important;
 }
 
-/* LessonSideBarList */
-
-.LessonSideBarList {
-  display: flex;
+.lessonLink {
+  color: #2a9df4;
+  text-decoration: none;
 }
 
-.LessonSideBarList p:nth-child(2) {
-  margin-left: 1rem;
+.lessonLink:hover {
+  color: #1d6daa;
 }
 
 /* main conversation  */

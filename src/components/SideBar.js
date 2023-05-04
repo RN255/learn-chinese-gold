@@ -73,11 +73,12 @@ export default function SideBar(props) {
           </div>
           <Offcanvas.Body>
             {arrayOfLessons.map((item) => (
-              <div className="row">
+              <div className="row py-1">
                 <Link
                   key={item}
                   to={`/lesson${item.lessonNumber}`}
                   onClick={handleClose}
+                  className="lessonLink"
                 >
                   {item.lessonNumber} {item.titleEnglish}
                 </Link>
