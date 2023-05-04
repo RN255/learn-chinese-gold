@@ -12,7 +12,7 @@ export default function LessonsIndex() {
       </div>
       {arrayOfLessons.map((item) => (
         <Link
-          key={item}
+          key={item.lessonNumber}
           to={`/lesson${item.lessonNumber}`}
           className="text-decoration-none"
         >

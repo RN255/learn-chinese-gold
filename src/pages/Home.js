@@ -5,40 +5,45 @@ import girlImg from "../assets/images/girl.png";
 
 const Home = () => {
   return (
-    <div id="homePage">
-      <h1>Welcome to the homepage!</h1>
-      <p>This is some example text for the homepage.</p>
-      <div
-        style={{
-          width: "50%",
-          margin: "auto",
-          paddingTop: "5%",
-          display: "flex",
-        }}
-      >
-        <img
-          src={boyImg}
-          style={{ height: "6rem", borderRadius: "50%", marginRight: "5%" }}
-        ></img>
-        <p style={{ fontSize: "2rem", flexWrap: "wrap" }}>
-          Hi! Come and learn Chinese with me!
-        </p>
+    <div className="container homePage ">
+      <div className="row align-items-center">
+        <div className="col-lg-6 mx-auto mt-5 text-center">
+          <h2 className="display-6 fw-bold">Learn Chinese from Zero</h2>
+          <p>Join our lovely characters to learn Chinese conversation!</p>
+        </div>
+
+        <div className=" col-lg-6">
+          <div className="mainPageConvoSample d-flex align-items-center rounded mx-auto mt-5">
+            <div className="p-4">
+              <img src={boyImg}></img>
+            </div>
+            <div className="px-5 pt-3">
+              <p>你好。</p>
+              <p>Nǐ hǎo.</p>
+              <p>Hello.</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div
-        style={{
-          width: "50%",
-          margin: "auto",
-          paddingTop: "5%",
-          display: "flex",
-        }}
-      >
-        <p style={{ fontSize: "2rem", flexWrap: "wrap" }}>
-          And learn Chinese with me too!
-        </p>
-        <img
-          src={girlImg}
-          style={{ height: "6rem", borderRadius: "50%", marginRight: "5%" }}
-        ></img>
+
+      <div className="row align-items-center flex-lg-row-reverse">
+        <div className="col-lg-6 mx-auto mt-5 text-center">
+          <h2 className="display-6 fw-bold">Learn Chinese from Zero</h2>
+          <p>Join our lovely characters to learn Chinese conversation!</p>
+        </div>
+
+        <div className=" col-lg-6">
+          <div className="mainPageConvoSample d-flex align-items-center rounded mx-auto mt-5">
+            <div className="p-4">
+              <img src={girlImg}></img>
+            </div>
+            <div className="px-4 pt-3">
+              <p>你叫什么名字？</p>
+              <p>Nǐ jìao shénme míngzi?</p>
+              <p>What is your name?</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

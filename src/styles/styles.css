@@ -36,17 +36,19 @@
 
 /* the home page  */
 
-#homePage {
+.mainPageConvoSample {
+  background-color: #2a9df430;
+  width: fit-content;
 }
 
-#homePage h1 {
-  width: fit-content;
-  margin: auto;
+.mainPageConvoSample img {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
 }
 
-#homePage p {
-  width: fit-content;
-  margin: auto;
+.mainPageConvoSample div:nth-of-type(2) p:first-of-type {
+  font-size: 1.5rem;
 }
 
 /* lesson index */
