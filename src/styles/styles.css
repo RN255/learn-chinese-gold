@@ -62,7 +62,6 @@
 .HomeCtaButton:hover {
   /* background-color: #2a9df4 !important; */
   background-color: #1d6daa !important;
-
 }
 
 /* lesson index */
@@ -220,4 +219,18 @@ audio {
 
 .keyPhrases .row .col p:first-child {
   font-size: 1.5rem;
+}
+
+/* scroll up arrow  */
+
+.scrollUpArrow {
+  position: fixed;
+  bottom: 0;
+  right: 5%;
+  background-color: #2a9df410;
+  padding: 10px;
+}
+
+.scrollUpArrow img {
+  width: 25px;
 }

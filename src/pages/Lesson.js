@@ -6,6 +6,7 @@ import TranslatedWords from "../components/TranslatedWords";
 import Audio from "../components/Audio";
 import KeyPhrases from "../components/KeyPhrases";
 import SideBar from "../components/SideBar";
+import ScrollToTopButton from "../components/ScrollToTopButton";
 
 export default function Lesson(props) {
   return (
@@ -16,6 +17,7 @@ export default function Lesson(props) {
       <MainConvo LessonText={props.LessonText}></MainConvo>
       <TranslatedWords LessonText={props.LessonText}></TranslatedWords>
       <KeyPhrases LessonText={props.LessonText}></KeyPhrases>
+      <ScrollToTopButton></ScrollToTopButton>
     </div>
   );
 }
