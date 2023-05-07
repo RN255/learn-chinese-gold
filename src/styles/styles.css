@@ -51,6 +51,20 @@
   font-size: 1.5rem;
 }
 
+.homePageInstructions {
+  font-size: 1.25rem;
+}
+
+.HomeCtaButton {
+  background-color: #2a9df4 !important;
+}
+
+.HomeCtaButton:hover {
+  /* background-color: #2a9df4 !important; */
+  background-color: #1d6daa !important;
+
+}
+
 /* lesson index */
 
 .lessonIndex .row .col {
