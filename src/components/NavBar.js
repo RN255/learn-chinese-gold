@@ -16,7 +16,7 @@ export default function NavBar() {
               <h1>Let's Learn Chinese</h1>
             </Link>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
+          <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} className="border-0 shadow-none" />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-md`}
             aria-labelledby={`offcanvasNavbarLabel-expand-md`}

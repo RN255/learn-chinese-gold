@@ -114,7 +114,7 @@ const Home = (props) => {
             <Link to="/lesson1">
               <Button
                 variant="link"
-                className="w-100 HomeCtaButton text-light text-decoration-none"
+                className="w-100 HomeCtaButton text-dark text-decoration-none"
               >
                 Start lesson One
               </Button>
@@ -124,7 +124,7 @@ const Home = (props) => {
             <Link to="/lessonsIndex">
               <Button
                 variant="link"
-                className="w-100 HomeCtaButton text-light text-decoration-none"
+                className="w-100 HomeCtaButton text-dark text-decoration-none"
               >
                 Lesson Index
               </Button>

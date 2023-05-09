@@ -56,12 +56,12 @@
 }
 
 .HomeCtaButton {
-  background-color: #2a9df4 !important;
+  background-color: #2a9df450 !important;
 }
 
 .HomeCtaButton:hover {
   /* background-color: #2a9df4 !important; */
-  background-color: #1d6daa !important;
+  background-color: #2a9df410 !important;
 }
 
 /* lesson index */
