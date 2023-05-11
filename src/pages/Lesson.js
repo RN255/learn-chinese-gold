@@ -7,6 +7,7 @@ import Audio from "../components/Audio";
 import KeyPhrases from "../components/KeyPhrases";
 import SideBar from "../components/SideBar";
 import ScrollToTopButton from "../components/ScrollToTopButton";
+import Footer from "../components/Footer";
 
 export default function Lesson(props) {
   return (
@@ -18,6 +19,7 @@ export default function Lesson(props) {
       <TranslatedWords LessonText={props.LessonText}></TranslatedWords>
       <KeyPhrases LessonText={props.LessonText}></KeyPhrases>
       <ScrollToTopButton></ScrollToTopButton>
+      <Footer></Footer>
     </div>
   );
 }

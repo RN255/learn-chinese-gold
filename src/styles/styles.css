@@ -234,3 +234,13 @@ audio {
 .scrollUpArrow img {
   width: 25px;
 }
+
+/* footer  */
+
+.footerLink {
+  color: #2a9df4 !important;
+}
+
+.footerLink:hover {
+  color: #1d6daa !important;
+}

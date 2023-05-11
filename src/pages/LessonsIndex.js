@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { arrayOfLessons } from "../modules/lessonText";
+import Footer from "../components/Footer";
 
 export default function LessonsIndex() {
   return (
@@ -23,6 +24,7 @@ export default function LessonsIndex() {
           </div>
         </Link>
       ))}
+      <Footer></Footer>
     </div>
   );
 }

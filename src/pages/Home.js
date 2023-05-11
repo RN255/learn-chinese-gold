@@ -3,12 +3,12 @@ import "../styles/styles.css";
 import boyImg from "../assets/images/boy.png";
 import girlImg from "../assets/images/girl.png";
 import MainConvo from "../components/MainConvo";
-import TitleSection from "../components/TitleSection";
 import TranslatedWords from "../components/TranslatedWords";
 import Audio from "../components/Audio";
 import KeyPhrases from "../components/KeyPhrases";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
 
 const Home = (props) => {
   return (
@@ -25,7 +25,7 @@ const Home = (props) => {
           <div className="col-lg-6">
             <div className="mainPageConvoSample d-flex align-items-center rounded mx-auto mt-5">
               <div className="p-4">
-                <img src={boyImg}></img>
+                <img src={boyImg} alt="a boy"></img>
               </div>
               <div className="px-5 pt-3">
                 <p>你好。</p>
@@ -47,7 +47,7 @@ const Home = (props) => {
           <div className=" col-lg-6">
             <div className="mainPageConvoSample d-flex align-items-center rounded mx-auto mt-5">
               <div className="p-4">
-                <img src={girlImg}></img>
+                <img src={girlImg} alt="a girl"></img>
               </div>
               <div className="px-4 pt-3">
                 <p>你叫什么名字？</p>
@@ -132,6 +132,7 @@ const Home = (props) => {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </>
   );
 };

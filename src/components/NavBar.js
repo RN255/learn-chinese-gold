@@ -11,12 +11,15 @@ export default function NavBar() {
       <Navbar collapseOnSelect key="md" expand="md" className="navBar mb-0">
         <Container fluid>
           <Navbar.Brand>
-            <Link to="/" className="navLogo">
+            <Nav.Link href="/" to="/" className="navLogo">
               <h1>中文</h1>
               <h1>Let's Learn Chinese</h1>
-            </Link>
+            </Nav.Link>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} className="border-0 shadow-none" />
+          <Navbar.Toggle
+            aria-controls={`offcanvasNavbar-expand-md`}
+            className="border-0 shadow-none"
+          />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-md`}
             aria-labelledby={`offcanvasNavbarLabel-expand-md`}
