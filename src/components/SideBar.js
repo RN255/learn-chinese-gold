@@ -13,6 +13,8 @@ export default function SideBar(props) {
   const nextLessonNum = parseInt(props.LessonText.lessonNumber) + 1;
   const prevLessonNum = parseInt(props.LessonText.lessonNumber) - 1;
 
+  console.log(arrayOfLessons.length);
+
   return (
     <div className="container sideBar">
       <div className="row d-flex flex-row justify-content-center">
@@ -45,7 +47,7 @@ export default function SideBar(props) {
           </Button>
         </div>
         <div className="col col-lg-2 col-xl-1 text-center p-0">
-          {nextLessonNum > 5 ? (
+          {nextLessonNum > arrayOfLessons.length ? (
             <Button
               variant="link"
               size="sm"
