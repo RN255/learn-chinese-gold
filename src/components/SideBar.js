@@ -13,8 +13,6 @@ export default function SideBar(props) {
   const nextLessonNum = parseInt(props.LessonText.lessonNumber) + 1;
   const prevLessonNum = parseInt(props.LessonText.lessonNumber) - 1;
 
-  console.log(arrayOfLessons.length);
-
   return (
     <div className="container sideBar">
       <div className="row d-flex flex-row justify-content-center">
