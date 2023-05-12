@@ -1,7 +1,13 @@
 let inputText =
-  "13,你多大？,How old are you?,你多大？,我二十八岁。,我十九岁。我的朋友三十七岁。,我的同事四十五岁。,刘明多大？,刘明六十一岁。,New words,多,duō,many,大,dà,big,多大,duōdà,how old,二,èr,2,十,shí,10,八,bā,8,二十八,èrshíbā,28,岁,suì,years,九,jiǔ,9,十九,shíjiǔ,19,三,sān,3,七,qī,7,三十七,sānshíqī,37,同事,tóngshì,colleague,四,sì,4,五,wǔ,5,四十五,sì shí wǔ,45,六,liù,6,一,yī,1,六十一,liù shí yī,61,Dialogue translation and pinyin,Nǐ duōdà?,(How old are you?),Wǒ èrshíbā suì.,(I am 28 years old.),Wǒ shíjiǔ suì. Wǒde péngyǒu sānshíqī suì.,(I am 19 years old. My friend is 37 years old.),Wǒde tóngshì sìshíwǔ suì.,(My colleague is 45 years old),Liú míng duōdà?,(How old is liu ming?),Liú míng liùshíyī suì.,(liu ming is 61 years old.),Key phrases,你多大？,Nǐ duōdà?,How old are you?,我二十八岁。,Wǒ èrshíbā suì.,I am 28 years old.,我的朋友三十七岁。, Wǒde péngyou sānshíqī suì.,My friend is 37 years old.";
+"37$现在几点？$What time is it now?$现在几点？$现在三点十七分。$你几点起床？$六点半。$我们几点上课？$我们八点上课。$我们几点下课。$我们十点差十分下课。$New words$现在$xiànzài$now$几点？$jǐ diǎn?$what time?$点$diǎn$o’clock$分$fēn$minute$床$chuáng$bed$起床$qǐchuáng$get up$半$bàn$half$上课$shàng kè$start class$下课$xià kè$finish class$差$chà$short of$Dialouge translation and pinyin$Xiànzài jǐ diǎn?$(What time is it now?)$Xiànzài sān diǎn shíqī fēn.$(Now it is three o’clock and 17 minutes.)$Nǐ jǐ diǎn qǐchuáng?$(What time do you get up?)$Liù diǎn bàn.$(six thirty)$Wǒmen jǐ diǎn shàng kè?$(What time do we start class?)$Wǒmen bā diǎn shàng kè.$(We start class at 8 o’clock.)$Wǒmen jǐ diǎn xià kè?$(What time do we finish class?)$Wǒmen shí diǎn chà shí fēn xià kè.$(We finish class at ten minutes to ten.)$Key phrases$现在几点？$Xiànzài jǐ diǎn?$What time is it now?$现在三点十七分。$Xiànzài sān diǎn shíqī fēn.$Now it is three o’clock and 17 minutes.$你几点起床？$Nǐ jǐ diǎn qǐchuáng?$What time do you get up?$我们几点上课？$Wǒmen jǐ diǎn shàng kè?$ What time do we start class?"
 
-var splitText = inputText.split(",");
+var splitText = inputText.split("$");
+
+function removeWhitespace() {
+  for (let i = 0; i < splitText.length; i++) {
+    splitText[i] = splitText[i].trim();
+  }
+}
 
 function firstThreeLines() {
   splitText[0] = "lessonNumber: " + '"' + splitText[0] + '",';
@@ -28,6 +34,16 @@ function MainConvo() {
       splitText[i] = "convoLineFive: " + '"' + splitText[i] + '",';
     } else if (i == 8) {
       splitText[i] = "convoLineSix: " + '"' + splitText[i] + '",';
+    } else if (i == 9) {
+      splitText[i] = "convoLineSeven: " + '"' + splitText[i] + '",';
+    } else if (i == 10) {
+      splitText[i] = "convoLineEight: " + '"' + splitText[i] + '",';
+    } else if (i == 11) {
+      splitText[i] = "convoLineNine: " + '"' + splitText[i] + '",';
+    } else if (i == 12) {
+      splitText[i] = "convoLineTen: " + '"' + splitText[i] + '",';
+    } else if (i == 13) {
+      splitText[i] = "convoLineEleven: " + '"' + splitText[i] + '",';
     }
   }
 }
@@ -90,7 +106,7 @@ function translatedWords(startingIndex) {
 
   wordTranslationRound++;
 
-  if (splitText[startingIndex + 3] === "Dialogue translation and pinyin") {
+  if (splitText[startingIndex + 3] === "Dialouge translation and pinyin") {
     toDelete = startingIndex + 3;
     splitText.splice(toDelete, 1);
     sentanceStartingIndex = startingIndex + 3;
@@ -126,7 +142,6 @@ function sentanceTranslation(startingIndex) {
       result += string[i];
     }
   }
-
 
   splitText[startingIndex + 1] =
     "sentanceTranslationEng" +
@@ -201,10 +216,11 @@ function keyPhrase(startingIndex) {
 }
 
 // Call the functions
+removeWhitespace();
 firstThreeLines();
 MainConvo();
 
 // Print the output the the terminal
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < splitText.length; i++) {
   console.log(splitText[i]);
 }

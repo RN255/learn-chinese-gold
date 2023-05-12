@@ -172,9 +172,9 @@ export default function MainConvo(props) {
           <div className="col">
             <div>
               {props.LessonText.firstSpeakerMale ? (
-                <img src={girlImg}></img>
-              ) : (
                 <img src={boyImg}></img>
+              ) : (
+                <img src={girlImg}></img>
               )}
               <p>{props.LessonText.convoLineNine}</p>
             </div>
@@ -184,6 +184,50 @@ export default function MainConvo(props) {
             )}
             {props.LessonText.sentanceTranslationEngNine && engIsShown && (
               <p>{props.LessonText.sentanceTranslationEngNine}</p>
+            )}
+          </div>
+        </div>
+      )}
+
+      {props.LessonText.convoLineTen && (
+        <div className="row">
+          <div className="col">
+            <div>
+              {props.LessonText.firstSpeakerMale ? (
+                <img src={girlImg}></img>
+              ) : (
+                <img src={boyImg}></img>
+              )}
+              <p>{props.LessonText.convoLineTen}</p>
+            </div>
+
+            {props.LessonText.sentanceTranslationPinTen && pinIsShown && (
+              <p>{props.LessonText.sentanceTranslationPinTen}</p>
+            )}
+            {props.LessonText.sentanceTranslationEngTen && engIsShown && (
+              <p>{props.LessonText.sentanceTranslationEngTen}</p>
+            )}
+          </div>
+        </div>
+      )}
+
+      {props.LessonText.convoLineEleven && (
+        <div className="row">
+          <div className="col">
+            <div>
+              {props.LessonText.firstSpeakerMale ? (
+                <img src={boyImg}></img>
+              ) : (
+                <img src={girlImg}></img>
+              )}
+              <p>{props.LessonText.convoLineEleven}</p>
+            </div>
+
+            {props.LessonText.sentanceTranslationPinEleven && pinIsShown && (
+              <p>{props.LessonText.sentanceTranslationPinEleven}</p>
+            )}
+            {props.LessonText.sentanceTranslationEngEleven && engIsShown && (
+              <p>{props.LessonText.sentanceTranslationEngEleven}</p>
             )}
           </div>
         </div>
