@@ -65,7 +65,7 @@ export default function SideBar(props) {
       </div>
 
       <Offcanvas show={show} onHide={handleClose}>
-        <div className="container">
+        <div className="container overflow-auto">
           <div className="row">
             <Offcanvas.Header closeButton>
               <Offcanvas.Title>Lesson Index</Offcanvas.Title>
