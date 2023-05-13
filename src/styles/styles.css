@@ -26,12 +26,12 @@
 
 .navBar .navLink {
   text-decoration: none;
-  color: #000;
+  color: #2a9df4 !important;
 }
 
 .navBar .navLink:hover {
   text-decoration: none;
-  color: #00000050;
+  color: #1d6daa !important;
 }
 
 /* the home page  */

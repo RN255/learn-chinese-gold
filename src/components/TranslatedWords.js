@@ -150,6 +150,102 @@ export default function TranslatedWords(props) {
           <p>{props.LessonText.translationEngWordTwelve}</p>
         </div>
       </div>
+
+      <div className="row">
+        <div className="col translationChinWord">
+          <p>{props.LessonText.translationChinWordThirteen}</p>
+        </div>
+        <div className="col">
+          <p>{props.LessonText.translationPinWordThirteen}</p>
+        </div>
+        <div className="col translationEngWord">
+          <p>{props.LessonText.translationEngWordThirteen}</p>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col translationChinWord">
+          <p>{props.LessonText.translationChinWordFourteen}</p>
+        </div>
+        <div className="col">
+          <p>{props.LessonText.translationPinWordFourteen}</p>
+        </div>
+        <div className="col translationEngWord">
+          <p>{props.LessonText.translationEngWordFourteen}</p>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col translationChinWord">
+          <p>{props.LessonText.translationChinWordFifteen}</p>
+        </div>
+        <div className="col">
+          <p>{props.LessonText.translationPinWordFifteen}</p>
+        </div>
+        <div className="col translationEngWord">
+          <p>{props.LessonText.translationEngWordFifteen}</p>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col translationChinWord">
+          <p>{props.LessonText.translationChinWordSixteen}</p>
+        </div>
+        <div className="col">
+          <p>{props.LessonText.translationPinWordSixteen}</p>
+        </div>
+        <div className="col translationEngWord">
+          <p>{props.LessonText.translationEngWordSixteen}</p>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col translationChinWord">
+          <p>{props.LessonText.translationChinWordSeventeen}</p>
+        </div>
+        <div className="col">
+          <p>{props.LessonText.translationPinWordSeventeen}</p>
+        </div>
+        <div className="col translationEngWord">
+          <p>{props.LessonText.translationEngWordSeventeen}</p>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col translationChinWord">
+          <p>{props.LessonText.translationChinWordEighteen}</p>
+        </div>
+        <div className="col">
+          <p>{props.LessonText.translationPinWordEighteen}</p>
+        </div>
+        <div className="col translationEngWord">
+          <p>{props.LessonText.translationEngWordEighteen}</p>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col translationChinWord">
+          <p>{props.LessonText.translationChinWordNineteen}</p>
+        </div>
+        <div className="col">
+          <p>{props.LessonText.translationPinWordNineteen}</p>
+        </div>
+        <div className="col translationEngWord">
+          <p>{props.LessonText.translationEngWordNineteen}</p>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col translationChinWord">
+          <p>{props.LessonText.translationChinWordTwenty}</p>
+        </div>
+        <div className="col">
+          <p>{props.LessonText.translationPinWordTwenty}</p>
+        </div>
+        <div className="col translationEngWord">
+          <p>{props.LessonText.translationEngWordTwenty}</p>
+        </div>
+      </div>
     </div>
   );
 }

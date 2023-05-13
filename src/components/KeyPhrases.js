@@ -83,6 +83,26 @@ export default function KeyPhrases(props) {
           </div>
         </div>
       )}
+
+      {props.LessonText.keyPhraseChinSeven && (
+        <div className="row justify-content-center">
+          <div className="col col-md-6 text-center">
+            <p>{props.LessonText.keyPhraseChinSeven}</p>
+            {pinIsShown && <p>{props.LessonText.keyPhrasePinSeven}</p>}
+            {engIsShown && <p>{props.LessonText.keyPhraseEngSeven}</p>}
+          </div>
+        </div>
+      )}
+
+      {props.LessonText.keyPhraseChinEight && (
+        <div className="row justify-content-center">
+          <div className="col col-md-6 text-center">
+            <p>{props.LessonText.keyPhraseChinEight}</p>
+            {pinIsShown && <p>{props.LessonText.keyPhrasePinEight}</p>}
+            {engIsShown && <p>{props.LessonText.keyPhraseEngEight}</p>}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
