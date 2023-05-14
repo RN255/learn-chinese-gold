@@ -410,7 +410,6 @@ export const arrayOfLessons = [
     keyPhrasePinFive: "Wǒ tīng bù dǒng.",
     keyPhraseEngFive: "I don’t understand.",
     firstSpeakerMale: true,
-
   },
   {
     lessonNumber: "7",
@@ -1288,11 +1287,17 @@ export const arrayOfLessons = [
     titleChinese: "最近车越来越多。",
     titleEnglish: "These days there are more and more cars.",
     convoLineOne: "看！那里有一辆出租车。我们过去吧。",
+    convoLineOneCharacter: "boy",
     convoLineTwo: "司机: 去哪里？",
+    convoLineTwoCharacter: "other",
     convoLineThree: "玫瑰饭店。",
+    convoLineThreeCharacter: "boy",
     convoLineFour: "司机: 好的。上来。",
+    convoLineFourCharacter: "other",
     convoLineFive: "哇。车很多。",
+    convoLineFiveCharacter: "boy",
     convoLineSix: "是的。最近车越来越多。",
+    convoLineSixCharacter: "girl",
     translationChinWordOne: "看",
     translationPinWordOne: "kàn",
     translationEngWordOne: "look",
@@ -1346,17 +1351,24 @@ export const arrayOfLessons = [
     keyPhraseChinFour: "最近车越来越多。",
     keyPhrasePinFour: "Zuìjìn chē yuè lái yuè duō.",
     keyPhraseEngFour: "These days there are more and more cars.",
+    customLesson: true,
   },
   {
     lessonNumber: "20",
     titleChinese: "往前走",
     titleEnglish: "Go straight ahead.",
     convoLineOne: "司机: 玫瑰饭店在哪儿？是这里吗？",
+    convoLineOneCharacter: "other",
     convoLineTwo: "不是这里，往前走。",
+    convoLineTwoCharacter: "boy",
     convoLineThree: "司机: 哦，直走，是吧？",
+    convoLineThreeCharacter: "other",
     convoLineFour: "是的。再往前走。请左拐，再右拐。",
+    convoLineFourCharacter: "boy",
     convoLineFive: "司机: 这里吗？",
+    convoLineFiveCharacter: "other",
     convoLineSix: "对。在这里停。到了。",
+    convoLineSixCharacter: "boy",
     translationChinWordOne: "这里",
     translationPinWordOne: "zhèlǐ",
     translationEngWordOne: "here",
@@ -1432,18 +1444,33 @@ export const arrayOfLessons = [
     keyPhraseChinEight: "到了。",
     keyPhrasePinEight: "Dào le.",
     keyPhraseEngEight: "We have arrived.",
+    customLesson: true,
   },
   {
     lessonNumber: "21",
     titleChinese: "几位？",
     titleEnglish: "How many people?",
     convoLineOne: "看， 是这儿，前面的那家。",
+    convoLineOneCharacter: "boy",
+
     convoLineTwo: "看起来不错。",
+    convoLineTwoCharacter: "girl",
+
     convoLineThree: "我们进去吧。",
+    convoLineThreeCharacter: "boy",
+
     convoLineFour: "服务员：您几位？",
+    convoLineFourCharacter: "other",
+
     convoLineFive: "两位。",
+    convoLineFiveCharacter: "boy",
+
     convoLineSix: "服务员：这边请。请坐。",
+    convoLineSixCharacter: "other",
+
     convoLineSeven: "谢谢。",
+    convoLineSevenCharacter: "boy",
+
     translationChinWordOne: "这儿",
     translationPinWordOne: "zhè'er",
     translationEngWordOne: "here",
@@ -1501,6 +1528,7 @@ export const arrayOfLessons = [
     keyPhraseChinFour: "这边请。",
     keyPhrasePinFour: "Zhè biān qǐng.",
     keyPhraseEngFour: "Please come this way.",
+    customLesson: true,
   },
   {
     lessonNumber: "22",
@@ -2967,13 +2995,29 @@ export const arrayOfLessons = [
     titleChinese: "你能来修吗？",
     titleEnglish: "Can you come and fix it?",
     convoLineOne: "我给师傅打电话。师傅的电话号码是多少？",
+    convoLineOneCharacter: "girl",
+
     convoLineTwo: "二三五，六五二，七三一。",
+    convoLineTwoCharacter: "boy",
+
     convoLineThree: "师傅：喂！",
+    convoLineThreeCharacter: "other",
+
     convoLineFour: "你好。我们房间的空调坏了。你能来修吗？",
+    convoLineFourCharacter: "girl",
+
     convoLineFive: "师傅：可以。你的房间在哪儿？",
+    convoLineFiveCharacter: "other",
+
     convoLineSix: "在留学生宿舍。你什么时候能来？",
+    convoLineSixCharacter: "girl",
+
     convoLineSeven: "师傅：我马上来。",
+    convoLineSevenCharacter: "other",
+
     convoLineEight: "太感谢你了。",
+    convoLineEightCharacter: "girl",
+
     translationChinWordOne: "师傅",
     translationPinWordOne: "shīfu",
     translationEngWordOne: "master, workperson",
@@ -3038,6 +3082,7 @@ export const arrayOfLessons = [
     keyPhraseChinFive: "你的房间在哪儿？",
     keyPhrasePinFive: "Nǐde fángjiān zài nǎ'er?",
     keyPhraseEngFive: "Where is your room?",
+    customLesson: true,
   },
   {
     lessonNumber: "42",

@@ -171,6 +171,12 @@
   border-radius: 5px;
 }
 
+/* custom conversations  */
+
+.greenBackground {
+  background-color: #2af45c30 !important;
+}
+
 /* translation list  */
 
 .translatedWords p {
