@@ -64,6 +64,36 @@
   background-color: #2a9df410 !important;
 }
 
+/* home page animations  */
+
+.homePageBorderElement {
+  /* Other styles for the element */
+  border: 2px solid transparent;
+  transition: border-color 0.5s;
+}
+
+.flashingBorder {
+  animation: flash 3s linear infinite;
+}
+
+@keyframes flash {
+  0% {
+    /* border-color: transparent; */
+    box-shadow: rgba(255, 0, 0, 0.05) 0px 0px 10px;
+
+  }
+  50% {
+    /* border-color: red; */
+    box-shadow: rgba(255, 0, 0, 0.70) 0px 0px 10px;
+
+  }
+  100% {
+    /* border-color: transparent; */
+    box-shadow: rgba(255, 0, 0, 0.05) 0px 0px 10px;
+
+  }
+}
+
 /* lesson index */
 
 .lessonIndex .row .col {
@@ -196,6 +226,7 @@
 
 audio {
   width: 100%;
+  border-radius: 25px;
 }
 
 /* key phrases  */

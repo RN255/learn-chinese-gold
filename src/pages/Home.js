@@ -70,7 +70,7 @@ const Home = (props) => {
       </div>
 
       {/* <TitleSection LessonText={props.LessonText}></TitleSection> */}
-      <Audio LessonText={props.LessonText}></Audio>
+      <Audio LessonText={props.LessonText} Flashing={true}></Audio>
 
       <div className="container mt-4">
         <div className="row text-center">
@@ -81,7 +81,7 @@ const Home = (props) => {
         </div>
       </div>
 
-      <MainConvo LessonText={props.LessonText}></MainConvo>
+      <MainConvo LessonText={props.LessonText} Flashing={true}></MainConvo>
 
       <div className="container mt-5">
         <div className="row text-center">
@@ -103,7 +103,7 @@ const Home = (props) => {
         </div>
       </div>
 
-      <KeyPhrases LessonText={props.LessonText}></KeyPhrases>
+      <KeyPhrases LessonText={props.LessonText} Flashing={true}></KeyPhrases>
 
       <div className="container mt-4 mb-5">
         <div className="row text-center display-6 fw-bold mb-4">
@@ -114,7 +114,7 @@ const Home = (props) => {
             <Link to="/lesson1">
               <Button
                 variant="link"
-                className="w-100 HomeCtaButton text-dark text-decoration-none"
+                className="w-100 HomeCtaButton text-dark text-decoration-none homePageBorderElement flashingBorder"
               >
                 Start lesson One
               </Button>
@@ -124,7 +124,7 @@ const Home = (props) => {
             <Link to="/lessonsIndex">
               <Button
                 variant="link"
-                className="w-100 HomeCtaButton text-dark text-decoration-none"
+                className="w-100 HomeCtaButton text-dark text-decoration-none homePageBorderElement flashingBorder"
               >
                 Lesson Index
               </Button>

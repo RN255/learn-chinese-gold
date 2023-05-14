@@ -18,12 +18,26 @@ export default function MainConvo(props) {
     <div className="mainConversation container pt-3">
       <div className="row justify-content-center mb-4">
         <div className="col col-md-3">
-          <button type="button" className="btn w-100" onClick={handleClickEng}>
+          <button
+            type="button"
+            className={
+              "btn w-100 " +
+              (props.Flashing ? "homePageBorderElement flashingBorder" : "")
+            }
+            onClick={handleClickEng}
+          >
             {!engIsShown ? "Show English" : "Hide English"}
           </button>
         </div>
         <div className="col col-md-3">
-          <button type="button" className="btn w-100" onClick={handleClickPin}>
+          <button
+            type="button"
+            className={
+              "btn w-100 " +
+              (props.Flashing ? "homePageBorderElement flashingBorder" : "")
+            }
+            onClick={handleClickPin}
+          >
             {!pinIsShown ? "Show PinYin" : "Hide PinYin"}
           </button>
         </div>
