@@ -478,12 +478,13 @@ export const arrayOfLessons = [
     keyPhraseChinFive: "不用谢。",
     keyPhrasePinFive: "Búyòng xiè.",
     keyPhraseEngFive: "It’s OK",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "8",
     titleChinese: "这是什么？",
     titleEnglish: "What is this?",
-    convoLineOne: "你好，你会说汉语？",
+    convoLineOne: "你好，你会说汉语吗？",
     convoLineTwo: "我会说一点。",
     convoLineThree: "这是什么？",
     convoLineFour: "这是书。",
@@ -519,7 +520,7 @@ export const arrayOfLessons = [
     translationChinWordNine: "对",
     translationPinWordNine: "duì",
     translationEngWordNine: "correct, yes",
-    sentanceTranslationPinOne: "Nǐhǎo, nǐ huì shuō hànyǔ?",
+    sentanceTranslationPinOne: "Nǐhǎo, nǐ huì shuō hànyǔ ma?",
     sentanceTranslationEngOne: "Hello, do you speak Chinese?",
     sentanceTranslationPinTwo: "Wǒ huì shuō yìdiǎn.",
     sentanceTranslationEngTwo: "I can speak a little.",
@@ -555,6 +556,7 @@ export const arrayOfLessons = [
     keyPhraseChinSix: "我听的懂。",
     keyPhrasePinSix: "Wǒ tīng de dǒng.",
     keyPhraseEngSix: "I understand.",
+    firstSpeakerMale: true,
   },
 
   {
@@ -618,6 +620,7 @@ export const arrayOfLessons = [
     keyPhraseChinThree: "在哪儿？",
     keyPhrasePinThree: "Zài nǎ'er?",
     keyPhraseEngThree: "Where?",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "10",
@@ -692,6 +695,7 @@ export const arrayOfLessons = [
     keyPhraseChinFive: "那是他的杯子。",
     keyPhrasePinFive: "Nà shì tāde bēizi.",
     keyPhraseEngFive: "That is his cup.",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "11",
@@ -769,6 +773,7 @@ export const arrayOfLessons = [
     keyPhraseChinSix: "我是上海人。",
     keyPhrasePinSix: "Wǒ shì shànghǎirén.",
     keyPhraseEngSix: "I am a Shanghaier.",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "12",
@@ -842,6 +847,7 @@ export const arrayOfLessons = [
     keyPhraseChinSix: "我有男朋友。",
     keyPhrasePinSix: "Wǒ yǒu nánpéngyou.",
     keyPhraseEngSix: "I have a boyfriend.",
+    firstSpeakerMale: false,
   },
   {
     lessonNumber: "13",
@@ -935,6 +941,7 @@ export const arrayOfLessons = [
     keyPhraseChinThree: "我的朋友三十七岁。",
     keyPhrasePinThree: " Wǒde péngyou sānshíqī suì.",
     keyPhraseEngThree: "My friend is 37 years old.",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "14",
@@ -986,6 +993,7 @@ export const arrayOfLessons = [
     keyPhraseChinThree: "因为我想跟中国人交流。",
     keyPhrasePinThree: "Yīnwèi wǒ xiǎng gēn zhōngguórén jiāoliú.",
     keyPhraseEngThree: "Because I want to communicate with Chinese people.",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "15",
@@ -1055,6 +1063,7 @@ export const arrayOfLessons = [
     keyPhraseChinFour: "我要两个。",
     keyPhrasePinFour: "Wǒ yào liǎng gè.",
     keyPhraseEngFour: "I want two.",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "16",
@@ -1123,6 +1132,7 @@ export const arrayOfLessons = [
     keyPhraseChinFour: "给你十块。",
     keyPhrasePinFour: "Gěi nǐ shí kuài.",
     keyPhraseEngFour: "Here is ten yuan.",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "17",
@@ -1201,6 +1211,7 @@ export const arrayOfLessons = [
     keyPhraseChinSeven: "我们去一家饭店吃。",
     keyPhrasePinSeven: "Wǒmen qù yì jiā fàndiàn chī.",
     keyPhraseEngSeven: "Let’s go and eat in a restaurant.",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "18",
@@ -1281,6 +1292,7 @@ export const arrayOfLessons = [
     keyPhraseChinFive: "很近。",
     keyPhrasePinFive: "Hěn jìn.",
     keyPhraseEngFive: "Very close.",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "19",
@@ -1614,6 +1626,7 @@ export const arrayOfLessons = [
     keyPhraseChinFour: "你想吃辣的吗？",
     keyPhrasePinFour: "Nǐ xiǎng chī làde ma?",
     keyPhraseEngFour: "Would you like to eat spicy food?",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "23",
@@ -1681,6 +1694,7 @@ export const arrayOfLessons = [
     keyPhraseChinFour: "这就够了。",
     keyPhrasePinFour: "Zhè jiù gòule.",
     keyPhraseEngFour: "This is enough.",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "24",
@@ -1767,6 +1781,7 @@ export const arrayOfLessons = [
     keyPhraseChinFive: "太贵了。",
     keyPhrasePinFive: "tài guì le.",
     keyPhraseEngFive: "Too expensive.",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "25",
@@ -1833,6 +1848,7 @@ export const arrayOfLessons = [
     keyPhraseChinFive: "我觉得肯德基比麦当劳好吃。",
     keyPhrasePinFive: "wǒ juéde kěndéjī bǐ màidāngláo hǎochī.",
     keyPhraseEngFive: "I think KFC is more delicious than McDonalds.",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "26",
@@ -1906,6 +1922,7 @@ export const arrayOfLessons = [
     keyPhraseChinFive: "有点渴。",
     keyPhrasePinFive: "Yǒudiǎn kě.",
     keyPhraseEngFive: "I am a bit thirsty.",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "27",
@@ -1991,6 +2008,7 @@ export const arrayOfLessons = [
     keyPhraseChinFive: "我觉得都好喝。",
     keyPhrasePinFive: "Wǒ juéde dōu hǎohē.",
     keyPhraseEngFive: "I think they both taste good.",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "28",
@@ -2072,6 +2090,7 @@ export const arrayOfLessons = [
     keyPhraseChinThree: "我经常去酒吧。",
     keyPhrasePinThree: "Wǒ jīngcháng qù jiǔbā.",
     keyPhraseEngThree: "I often go to the bar.",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "29",
@@ -2145,6 +2164,7 @@ export const arrayOfLessons = [
     keyPhraseChinThree: "我家有五口人。",
     keyPhrasePinThree: "Wǒ jiā yǒu wǔ kǒu rén.",
     keyPhraseEngThree: "My family has five people.",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "30",
@@ -2211,6 +2231,7 @@ export const arrayOfLessons = [
     keyPhraseChinFive: "我的朋友告诉我上海很好。",
     keyPhrasePinFive: "Wǒde péngyou gàosù wǒ shànghǎi hěn hǎo.",
     keyPhraseEngFive: "My friend told me Shanghai is really good.",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "31",
@@ -2283,6 +2304,7 @@ export const arrayOfLessons = [
     keyPhraseChinThree: "我每天都遛狗。",
     keyPhrasePinThree: "Wǒ měitiān dōu liù gǒu.",
     keyPhraseEngThree: "Every day I walk the dog.",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "32",
@@ -2357,6 +2379,7 @@ export const arrayOfLessons = [
     keyPhraseChinThree: "我不会游泳。",
     keyPhrasePinThree: "Wǒ bú huì yóuyǒng.",
     keyPhraseEngThree: "I cannot swim.",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "33",
@@ -2431,6 +2454,7 @@ export const arrayOfLessons = [
     keyPhraseChinSix: "我更喜欢看新闻。",
     keyPhrasePinSix: "Wǒ gèng xǐhuān kàn xīnwén.",
     keyPhraseEngSix: "I prefer to watch the news.",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "34",
@@ -2526,6 +2550,7 @@ export const arrayOfLessons = [
     keyPhraseChinSeven: "再见。",
     keyPhrasePinSeven: "Zàijiàn.",
     keyPhraseEngSeven: "Good bye.",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "35",
@@ -2614,6 +2639,7 @@ export const arrayOfLessons = [
     keyPhraseChinFour: "你今天有空吗？",
     keyPhrasePinFour: "Nǐ jīntiān yǒu kòng ma?",
     keyPhraseEngFour: "Do you have free time today?",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "36",
@@ -2680,6 +2706,7 @@ export const arrayOfLessons = [
     keyPhraseChinFour: "你要不要跟我去看电影？",
     keyPhrasePinFour: "Nǐ yàobúyào gēn wǒ qù kàn diànyǐng?",
     keyPhraseEngFour: "Do you want to watch a movie with me?",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "37",
@@ -2751,6 +2778,7 @@ export const arrayOfLessons = [
     keyPhraseChinFour: "我们几点上课？",
     keyPhrasePinFour: "Wǒmen jǐ diǎn shàng kè?",
     keyPhraseEngFour: "What time do we start class?",
+    firstSpeakerMale: true,
   },
 
   {
@@ -2835,6 +2863,7 @@ export const arrayOfLessons = [
     keyPhraseChinThree: "你要买什么东西？",
     keyPhrasePinThree: "Nǐ yào mǎi shénme dōngxi?",
     keyPhraseEngThree: "What do you want to buy?",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "39",
@@ -2913,6 +2942,7 @@ export const arrayOfLessons = [
     keyPhraseChinFive: "你还要买其他的东西吗？",
     keyPhrasePinFive: "Nǐ hái yào mǎi qítāde dōngxi ma?",
     keyPhraseEngFive: "Do you want to buy some other stuff?",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "40",
@@ -2989,6 +3019,7 @@ export const arrayOfLessons = [
     keyPhraseChinThree: "我找人修吧。",
     keyPhrasePinThree: "wǒ zhǎo rén xiū ba.",
     keyPhraseEngThree: "I’ll find someone to fix it.",
+    firstSpeakerMale: false,
   },
   {
     lessonNumber: "41",
@@ -3185,6 +3216,7 @@ export const arrayOfLessons = [
     keyPhraseChinSeven: "你得吃药。",
     keyPhrasePinSeven: "Nǐ děi chī yào.",
     keyPhraseEngSeven: "You should take some medicine.",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "43",
@@ -3256,6 +3288,7 @@ export const arrayOfLessons = [
     keyPhraseChinFive: "预订好了。",
     keyPhrasePinFive: "Yùdìng hǎo le.",
     keyPhraseEngFive: "It has been booked.",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "44",
@@ -3359,6 +3392,7 @@ export const arrayOfLessons = [
     keyPhraseChinSix: "漂亮的风景。",
     keyPhrasePinSix: "piàoliang de fēngjǐng.",
     keyPhraseEngSix: "pretty scenery.",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "45",
@@ -3441,6 +3475,7 @@ export const arrayOfLessons = [
     keyPhraseChinFour: "这件很好看。",
     keyPhrasePinFour: "Zhèjiàn hěn hǎokàn.",
     keyPhraseEngFour: "This looks good.",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "46",
@@ -3514,6 +3549,7 @@ export const arrayOfLessons = [
     keyPhraseChinFour: "你昨天干什么了？",
     keyPhrasePinFour: "Nǐ zuótiān gàn shénme le?",
     keyPhraseEngFour: "What did you do yesterday?",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "47",
@@ -3618,6 +3654,7 @@ export const arrayOfLessons = [
     keyPhraseChinFive: "祝你生日快乐！",
     keyPhrasePinFive: "Zhù nǐ shēngrì kuàilè!",
     keyPhraseEngFive: "I wish you a happy birthday.",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "48",
@@ -3702,6 +3739,7 @@ export const arrayOfLessons = [
     keyPhraseChinSix: "是吗？",
     keyPhrasePinSix: "Shì ma?",
     keyPhraseEngSix: "Really?",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "49",
@@ -3779,6 +3817,7 @@ export const arrayOfLessons = [
     keyPhraseChinEight: "可以这样说吗？",
     keyPhrasePinEight: "kěyǐ zhèyàng shuō ma?",
     keyPhraseEngEight: "Can I say it like this?",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "50",
@@ -3863,6 +3902,7 @@ export const arrayOfLessons = [
     keyPhraseChinFour: "你今晚要干什么？",
     keyPhrasePinFour: "Nǐ jīnwǎn yào gàn shénme?",
     keyPhraseEngFour: "What do you want to do tonight?",
+    firstSpeakerMale: true,
   },
   {
     lessonNumber: "51",
@@ -3933,5 +3973,6 @@ export const arrayOfLessons = [
     keyPhraseChinFive: "我没去过。",
     keyPhrasePinFive: "Wǒ méi qù guo.",
     keyPhraseEngFive: "I have not been.",
+    firstSpeakerMale: true,
   },
 ];
