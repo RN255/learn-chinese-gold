@@ -3027,28 +3027,20 @@ export const arrayOfLessons = [
     titleEnglish: "Can you come and fix it?",
     convoLineOne: "我给师傅打电话。师傅的电话号码是多少？",
     convoLineOneCharacter: "girl",
-
     convoLineTwo: "二三五，六五二，七三一。",
     convoLineTwoCharacter: "boy",
-
     convoLineThree: "师傅：喂！",
     convoLineThreeCharacter: "other",
-
     convoLineFour: "你好。我们房间的空调坏了。你能来修吗？",
     convoLineFourCharacter: "girl",
-
     convoLineFive: "师傅：可以。你的房间在哪儿？",
     convoLineFiveCharacter: "other",
-
     convoLineSix: "在留学生宿舍。你什么时候能来？",
     convoLineSixCharacter: "girl",
-
     convoLineSeven: "师傅：我马上来。",
     convoLineSevenCharacter: "other",
-
     convoLineEight: "太感谢你了。",
     convoLineEightCharacter: "girl",
-
     translationChinWordOne: "师傅",
     translationPinWordOne: "shīfu",
     translationEngWordOne: "master, workperson",

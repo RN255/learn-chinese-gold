@@ -12,20 +12,23 @@ import Footer from "../components/Footer";
 
 const Home = (props) => {
   return (
-    <>
-      <div className="container homePage ">
-        <div className="row align-items-center">
+    <div className="homePage">
+      <div className="container ">
+        <div className="row align-items-center mb-4">
           <div className="col-lg-6 mx-auto mt-5 text-center">
-            <h2 className="display-6 fw-bold">
-              Learn to speak Mandarin Chinese
-            </h2>
-            <p>Join us and learn Chinese conversation!</p>
+            <h1 className="display-6 fw-bold">
+              Mandarin Chinese dialogues for beginners
+            </h1>
+            <p>Learn Chinese online for free with conversation dialgoues</p>
           </div>
 
           <div className="col-lg-6">
             <div className="mainPageConvoSample d-flex align-items-center rounded mx-auto mt-5">
               <div className="p-4">
-                <img src={boyImg} alt="a boy"></img>
+                <img
+                  src={boyImg}
+                  alt="A Chinese man who will be a conversation partner"
+                ></img>
               </div>
               <div className="px-5 pt-3">
                 <p>你好。</p>
@@ -38,16 +41,20 @@ const Home = (props) => {
 
         <div className="row align-items-center flex-lg-row-reverse">
           <div className="col-lg-6 mx-auto mt-5 text-center">
-            <h2 className="display-6 fw-bold">
-              Improve daily Chinese conversation
-            </h2>
-            <p>Simple lessons for easy learning!</p>
+            <h2 className="display-6 fw-bold">Chinese daily conversation</h2>
+            <p>
+              Learn by yourself! Listen to the dialogue, read the script, follow
+              our simple lessons!
+            </p>
           </div>
 
           <div className=" col-lg-6">
             <div className="mainPageConvoSample d-flex align-items-center rounded mx-auto mt-5">
               <div className="p-4">
-                <img src={girlImg} alt="a girl"></img>
+                <img
+                  src={girlImg}
+                  alt="A Chinese woman who will be a conversation partner"
+                ></img>
               </div>
               <div className="px-4 pt-3">
                 <p>你叫什么名字？</p>
@@ -58,11 +65,11 @@ const Home = (props) => {
           </div>
         </div>
 
-        <div className="row text-center mt-5">
-          <p className="display-6 fw-bold">
-            Let's have a look at a sample lesson!
+        <div className="row pt-5 mt-5">
+          <p className="display-6 fw-bold border-bottom pb-3">
+            Example lesson:
           </p>
-          <p className="pt-3 homePageInstructions">
+          <p className="mt-5 pt-3 homePageInstructions text-center">
             <span className="fw-bold">Step 1: </span>Listen to the dialogue and
             read the conversation!
           </p>
@@ -70,9 +77,10 @@ const Home = (props) => {
       </div>
 
       {/* <TitleSection LessonText={props.LessonText}></TitleSection> */}
+
       <Audio LessonText={props.LessonText} Flashing={true}></Audio>
 
-      <div className="container mt-4">
+      <div className="container homeItemCustomMargin">
         <div className="row text-center">
           <p className="homePageInstructions">
             <span className="fw-bold">Step 2: </span> Press "Show English" for
@@ -83,7 +91,7 @@ const Home = (props) => {
 
       <MainConvo LessonText={props.LessonText} Flashing={true}></MainConvo>
 
-      <div className="container mt-5">
+      <div className="container homeItemCustomMargin">
         <div className="row text-center">
           <p className="homePageInstructions">
             <span className="fw-bold">Step 3: </span> Get help from the word
@@ -94,7 +102,7 @@ const Home = (props) => {
 
       <TranslatedWords LessonText={props.LessonText}></TranslatedWords>
 
-      <div className="container mt-5">
+      <div className="container homeItemCustomMargin">
         <div className="row text-center">
           <p className="homePageInstructions">
             <span className="fw-bold">Step 4: </span> Test your knowledge of key
@@ -106,8 +114,9 @@ const Home = (props) => {
       <KeyPhrases LessonText={props.LessonText} Flashing={true}></KeyPhrases>
 
       <div className="container mt-4 mb-5">
-        <div className="row text-center display-6 fw-bold mb-4">
-          <p>Are you ready to start learning?</p>
+        <div className="row text-center  mb-4">
+          <p className="display-6 fw-bold">Are you ready to start learning?</p>
+          <p>Start learning Chinese for free with our online conversation course!</p>
         </div>
         <div className="row justify-content-center">
           <div className="col-12 col-md-3 pb-4">
@@ -133,7 +142,7 @@ const Home = (props) => {
         </div>
       </div>
       <Footer></Footer>
-    </>
+    </div>
   );
 };
 

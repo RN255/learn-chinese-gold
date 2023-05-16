@@ -7,7 +7,7 @@ export default function Footer() {
     <>
       <div className="container">
         <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          <p className="col-md-4 mb-0 text-body-secondary">© 2023</p>
+          <p className="col-md-4 mb-0 text-body-secondary">© 2023 Let's Learn Chinese</p>
 
           <ul className="nav col-md-4 justify-content-end">
             <li className="nav-item">

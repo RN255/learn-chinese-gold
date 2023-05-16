@@ -3,7 +3,6 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import { Link } from "react-router-dom";
 
 export default function NavBar() {
   return (
@@ -12,8 +11,8 @@ export default function NavBar() {
         <Container fluid>
           <Navbar.Brand>
             <Nav.Link href="/" to="/" className="navLogo">
-              <h1>中文</h1>
-              <h1>Let's Learn Chinese</h1>
+              <p>中文</p>
+              <p>Let's Learn Chinese</p>
             </Nav.Link>
           </Navbar.Brand>
           <Navbar.Toggle
