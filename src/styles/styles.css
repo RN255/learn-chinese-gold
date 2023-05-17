@@ -78,7 +78,7 @@
 .homePageBorderElement {
   /* Other styles for the element */
   border: 2px solid transparent;
-  transition: border-color 0.5s;
+  transition: 0.5s;
 }
 
 .flashingBorder {
@@ -87,15 +87,12 @@
 
 @keyframes flash {
   0% {
-    /* border-color: transparent; */
     box-shadow: rgba(255, 0, 0, 0.05) 0px 0px 10px;
   }
   50% {
-    /* border-color: red; */
     box-shadow: rgba(255, 0, 0, 0.7) 0px 0px 10px;
   }
   100% {
-    /* border-color: transparent; */
     box-shadow: rgba(255, 0, 0, 0.05) 0px 0px 10px;
   }
 }
