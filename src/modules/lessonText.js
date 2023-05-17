@@ -1822,7 +1822,7 @@ export const arrayOfLessons = [
     translationChinWordTen: "比",
     translationPinWordTen: "bǐ",
     translationEngWordTen:
-      "used to compare to things (Example: 肯德基比麦当劳好吃 - kěndéjī bǐ màidāngláo hǎo chī > KFC is more delicious than McDonalds.)",
+      "used to compare things (Example: 肯德基比麦当劳好吃 - kěndéjī bǐ màidāngláo hǎo chī - KFC is more delicious than McDonalds.)",
     sentanceTranslationPinOne: "Nǐ juéde xīcān zěnmeyàng?",
     sentanceTranslationEngOne: "What do you think of Western food?",
     sentanceTranslationPinTwo: "Wǒ juéde hái kěyǐ ba.",
