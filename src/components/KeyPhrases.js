@@ -45,7 +45,7 @@ export default function KeyPhrases(props) {
       </div>
 
       <div className="row justify-content-center">
-        <div className="col col-md-6 text-center">
+        <div className="col col-md-6 text-center mx-1">
           <p>{props.LessonText.keyPhraseChinOne}</p>
           {pinIsShown && <p>{props.LessonText.keyPhrasePinOne}</p>}
           {engIsShown && <p>{props.LessonText.keyPhraseEngOne}</p>}
@@ -53,7 +53,7 @@ export default function KeyPhrases(props) {
       </div>
 
       <div className="row justify-content-center">
-        <div className="col col-md-6 text-center">
+        <div className="col col-md-6 text-center mx-1">
           <p>{props.LessonText.keyPhraseChinTwo}</p>
           {pinIsShown && <p>{props.LessonText.keyPhrasePinTwo}</p>}
           {engIsShown && <p>{props.LessonText.keyPhraseEngTwo}</p>}
@@ -61,7 +61,7 @@ export default function KeyPhrases(props) {
       </div>
 
       <div className="row justify-content-center">
-        <div className="col col-md-6 text-center">
+        <div className="col col-md-6 text-center mx-1">
           <p>{props.LessonText.keyPhraseChinThree}</p>
           {pinIsShown && <p>{props.LessonText.keyPhrasePinThree}</p>}
           {engIsShown && <p>{props.LessonText.keyPhraseEngThree}</p>}
@@ -70,7 +70,7 @@ export default function KeyPhrases(props) {
 
       {props.LessonText.keyPhraseChinFour && (
         <div className="row justify-content-center">
-          <div className="col col-md-6 text-center">
+          <div className="col col-md-6 text-center mx-1">
             <p>{props.LessonText.keyPhraseChinFour}</p>
             {pinIsShown && <p>{props.LessonText.keyPhrasePinFour}</p>}
             {engIsShown && <p>{props.LessonText.keyPhraseEngFour}</p>}
@@ -80,7 +80,7 @@ export default function KeyPhrases(props) {
 
       {props.LessonText.keyPhraseChinFive && (
         <div className="row justify-content-center">
-          <div className="col col-md-6 text-center">
+          <div className="col col-md-6 text-center mx-1">
             <p>{props.LessonText.keyPhraseChinFive}</p>
             {pinIsShown && <p>{props.LessonText.keyPhrasePinFive}</p>}
             {engIsShown && <p>{props.LessonText.keyPhraseEngFive}</p>}
@@ -90,7 +90,7 @@ export default function KeyPhrases(props) {
 
       {props.LessonText.keyPhraseChinSix && (
         <div className="row justify-content-center">
-          <div className="col col-md-6 text-center">
+          <div className="col col-md-6 text-center mx-1">
             <p>{props.LessonText.keyPhraseChinSix}</p>
             {pinIsShown && <p>{props.LessonText.keyPhrasePinSix}</p>}
             {engIsShown && <p>{props.LessonText.keyPhraseEngSix}</p>}
@@ -100,7 +100,7 @@ export default function KeyPhrases(props) {
 
       {props.LessonText.keyPhraseChinSeven && (
         <div className="row justify-content-center">
-          <div className="col col-md-6 text-center">
+          <div className="col col-md-6 text-center mx-1">
             <p>{props.LessonText.keyPhraseChinSeven}</p>
             {pinIsShown && <p>{props.LessonText.keyPhrasePinSeven}</p>}
             {engIsShown && <p>{props.LessonText.keyPhraseEngSeven}</p>}
@@ -110,7 +110,7 @@ export default function KeyPhrases(props) {
 
       {props.LessonText.keyPhraseChinEight && (
         <div className="row justify-content-center">
-          <div className="col col-md-6 text-center">
+          <div className="col col-md-6 text-center mx-1">
             <p>{props.LessonText.keyPhraseChinEight}</p>
             {pinIsShown && <p>{props.LessonText.keyPhrasePinEight}</p>}
             {engIsShown && <p>{props.LessonText.keyPhraseEngEight}</p>}

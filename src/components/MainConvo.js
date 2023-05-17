@@ -43,7 +43,7 @@ export default function MainConvo(props) {
         </div>
       </div>
       <div className="row">
-        <div className="col">
+        <div className="col mx-1">
           <div>
             {props.LessonText.firstSpeakerMale ? (
               <img src={boyImg}></img>
@@ -57,7 +57,7 @@ export default function MainConvo(props) {
         </div>
       </div>
       <div className="row">
-        <div className="col">
+        <div className="col mx-1">
           <div>
             {props.LessonText.firstSpeakerMale ? (
               <img src={girlImg}></img>
@@ -71,7 +71,7 @@ export default function MainConvo(props) {
         </div>
       </div>
       <div className="row">
-        <div className="col">
+        <div className="col mx-1">
           <div>
             {props.LessonText.firstSpeakerMale ? (
               <img src={boyImg}></img>
@@ -85,7 +85,7 @@ export default function MainConvo(props) {
         </div>
       </div>
       <div className="row">
-        <div className="col">
+        <div className="col mx-1">
           <div>
             {props.LessonText.firstSpeakerMale ? (
               <img src={girlImg}></img>
@@ -101,7 +101,7 @@ export default function MainConvo(props) {
 
       {props.LessonText.convoLineFive && (
         <div className="row">
-          <div className="col">
+          <div className="col mx-1">
             <div>
               {props.LessonText.firstSpeakerMale ? (
                 <img src={boyImg}></img>
@@ -118,7 +118,7 @@ export default function MainConvo(props) {
 
       {props.LessonText.convoLineSix && (
         <div className="row">
-          <div className="col">
+          <div className="col mx-1">
             <div>
               {props.LessonText.firstSpeakerMale ? (
                 <img src={girlImg}></img>
@@ -140,7 +140,7 @@ export default function MainConvo(props) {
 
       {props.LessonText.convoLineSeven && (
         <div className="row">
-          <div className="col">
+          <div className="col mx-1">
             <div>
               {props.LessonText.firstSpeakerMale ? (
                 <img src={boyImg}></img>
@@ -161,7 +161,7 @@ export default function MainConvo(props) {
 
       {props.LessonText.convoLineEight && (
         <div className="row">
-          <div className="col">
+          <div className="col mx-1">
             <div>
               {props.LessonText.firstSpeakerMale ? (
                 <img src={girlImg}></img>
@@ -183,7 +183,7 @@ export default function MainConvo(props) {
 
       {props.LessonText.convoLineNine && (
         <div className="row">
-          <div className="col">
+          <div className="col mx-1">
             <div>
               {props.LessonText.firstSpeakerMale ? (
                 <img src={boyImg}></img>
@@ -205,7 +205,7 @@ export default function MainConvo(props) {
 
       {props.LessonText.convoLineTen && (
         <div className="row">
-          <div className="col">
+          <div className="col mx-1">
             <div>
               {props.LessonText.firstSpeakerMale ? (
                 <img src={girlImg}></img>
@@ -227,7 +227,7 @@ export default function MainConvo(props) {
 
       {props.LessonText.convoLineEleven && (
         <div className="row">
-          <div className="col">
+          <div className="col mx-1">
             <div>
               {props.LessonText.firstSpeakerMale ? (
                 <img src={boyImg}></img>
