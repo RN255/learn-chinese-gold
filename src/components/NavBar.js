@@ -10,9 +10,9 @@ export default function NavBar() {
       <Navbar collapseOnSelect key="md" expand="md" className="navBar mb-0">
         <Container fluid>
           <Navbar.Brand>
-            <Nav.Link href="/" to="/" className="navLogo">
-              <p>中文</p>
-              <p>Let's Learn Chinese</p>
+            <Nav.Link href="/" to="/" className="navLogo d-flex">
+              <p className="my-auto">中文</p>
+              <p className="my-auto">Let's Learn Chinese</p>
             </Nav.Link>
           </Navbar.Brand>
           <Navbar.Toggle
