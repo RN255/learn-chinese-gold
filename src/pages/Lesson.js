@@ -7,7 +7,6 @@ import TranslatedWords from "../components/TranslatedWords";
 import Audio from "../components/Audio";
 import KeyPhrases from "../components/KeyPhrases";
 import SideBar from "../components/SideBar";
-import ScrollToTopButton from "../components/ScrollToTopButton";
 import Footer from "../components/Footer";
 
 export default function Lesson(props) {
@@ -19,13 +18,12 @@ export default function Lesson(props) {
 
       {props.LessonText.customLesson ? (
         <MainConvoCustom LessonText={props.LessonText}></MainConvoCustom>
-        ) : (
+      ) : (
         <MainConvo LessonText={props.LessonText}></MainConvo>
       )}
 
       <TranslatedWords LessonText={props.LessonText}></TranslatedWords>
       <KeyPhrases LessonText={props.LessonText}></KeyPhrases>
-      <ScrollToTopButton></ScrollToTopButton>
       <Footer></Footer>
     </div>
   );
