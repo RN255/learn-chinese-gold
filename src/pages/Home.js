@@ -76,8 +76,6 @@ const Home = (props) => {
         </div>
       </div>
 
-      {/* <TitleSection LessonText={props.LessonText}></TitleSection> */}
-
       {/* <Audio LessonText={props.LessonText} Flashing={true}></Audio> */}
 
       <div className="container homeItemCustomMargin">
