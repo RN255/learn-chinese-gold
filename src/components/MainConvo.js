@@ -46,9 +46,15 @@ export default function MainConvo(props) {
         <div className="col mx-1">
           <div>
             {props.LessonText.firstSpeakerMale ? (
-              <img src={boyImg}></img>
+              <img
+                src={boyImg}
+                alt="A Chinese man who will be a conversation partner"
+              ></img>
             ) : (
-              <img src={girlImg}></img>
+              <img
+                src={girlImg}
+                alt="A Chinese woman who will be a conversation partner"
+              ></img>
             )}
             <p>{props.LessonText.convoLineOne}</p>
           </div>
@@ -60,9 +66,15 @@ export default function MainConvo(props) {
         <div className="col mx-1">
           <div>
             {props.LessonText.firstSpeakerMale ? (
-              <img src={girlImg}></img>
+              <img
+                src={girlImg}
+                alt="A Chinese woman who will be a conversation partner"
+              ></img>
             ) : (
-              <img src={boyImg}></img>
+              <img
+                src={boyImg}
+                alt="A Chinese man who will be a conversation partner"
+              ></img>
             )}
             <p>{props.LessonText.convoLineTwo}</p>
           </div>
@@ -74,9 +86,15 @@ export default function MainConvo(props) {
         <div className="col mx-1">
           <div>
             {props.LessonText.firstSpeakerMale ? (
-              <img src={boyImg}></img>
+              <img
+                src={boyImg}
+                alt="A Chinese man who will be a conversation partner"
+              ></img>
             ) : (
-              <img src={girlImg}></img>
+              <img
+                src={girlImg}
+                alt="A Chinese woman who will be a conversation partner"
+              ></img>
             )}
             <p>{props.LessonText.convoLineThree}</p>
           </div>
@@ -88,9 +106,15 @@ export default function MainConvo(props) {
         <div className="col mx-1">
           <div>
             {props.LessonText.firstSpeakerMale ? (
-              <img src={girlImg}></img>
+              <img
+                src={girlImg}
+                alt="A Chinese woman who will be a conversation partner"
+              ></img>
             ) : (
-              <img src={boyImg}></img>
+              <img
+                src={boyImg}
+                alt="A Chinese man who will be a conversation partner"
+              ></img>
             )}
             <p>{props.LessonText.convoLineFour}</p>
           </div>
@@ -104,9 +128,15 @@ export default function MainConvo(props) {
           <div className="col mx-1">
             <div>
               {props.LessonText.firstSpeakerMale ? (
-                <img src={boyImg}></img>
+                <img
+                  src={boyImg}
+                  alt="A Chinese man who will be a conversation partner"
+                ></img>
               ) : (
-                <img src={girlImg}></img>
+                <img
+                  src={girlImg}
+                  alt="A Chinese woman who will be a conversation partner"
+                ></img>
               )}
               <p>{props.LessonText.convoLineFive}</p>
             </div>
@@ -121,9 +151,15 @@ export default function MainConvo(props) {
           <div className="col mx-1">
             <div>
               {props.LessonText.firstSpeakerMale ? (
-                <img src={girlImg}></img>
+                <img
+                  src={girlImg}
+                  alt="A Chinese woman who will be a conversation partner"
+                ></img>
               ) : (
-                <img src={boyImg}></img>
+                <img
+                  src={boyImg}
+                  alt="A Chinese man who will be a conversation partner"
+                ></img>
               )}
               <p>{props.LessonText.convoLineSix}</p>
             </div>
@@ -143,9 +179,15 @@ export default function MainConvo(props) {
           <div className="col mx-1">
             <div>
               {props.LessonText.firstSpeakerMale ? (
-                <img src={boyImg}></img>
+                <img
+                  src={boyImg}
+                  alt="A Chinese man who will be a conversation partner"
+                ></img>
               ) : (
-                <img src={girlImg}></img>
+                <img
+                  src={girlImg}
+                  alt="A Chinese woman who will be a conversation partner"
+                ></img>
               )}
               <p>{props.LessonText.convoLineSeven}</p>
             </div>
@@ -164,9 +206,15 @@ export default function MainConvo(props) {
           <div className="col mx-1">
             <div>
               {props.LessonText.firstSpeakerMale ? (
-                <img src={girlImg}></img>
+                <img
+                  src={girlImg}
+                  alt="A Chinese woman who will be a conversation partner"
+                ></img>
               ) : (
-                <img src={boyImg}></img>
+                <img
+                  src={boyImg}
+                  alt="A Chinese man who will be a conversation partner"
+                ></img>
               )}
               <p>{props.LessonText.convoLineEight}</p>
             </div>
@@ -186,9 +234,15 @@ export default function MainConvo(props) {
           <div className="col mx-1">
             <div>
               {props.LessonText.firstSpeakerMale ? (
-                <img src={boyImg}></img>
+                <img
+                  src={boyImg}
+                  alt="A Chinese man who will be a conversation partner"
+                ></img>
               ) : (
-                <img src={girlImg}></img>
+                <img
+                  src={girlImg}
+                  alt="A Chinese woman who will be a conversation partner"
+                ></img>
               )}
               <p>{props.LessonText.convoLineNine}</p>
             </div>
@@ -208,9 +262,15 @@ export default function MainConvo(props) {
           <div className="col mx-1">
             <div>
               {props.LessonText.firstSpeakerMale ? (
-                <img src={girlImg}></img>
+                <img
+                  src={girlImg}
+                  alt="A Chinese woman who will be a conversation partner"
+                ></img>
               ) : (
-                <img src={boyImg}></img>
+                <img
+                  src={boyImg}
+                  alt="A Chinese man who will be a conversation partner"
+                ></img>
               )}
               <p>{props.LessonText.convoLineTen}</p>
             </div>
@@ -230,9 +290,12 @@ export default function MainConvo(props) {
           <div className="col mx-1">
             <div>
               {props.LessonText.firstSpeakerMale ? (
-                <img src={boyImg}></img>
+                <img
+                  src={boyImg}
+                  alt="A Chinese man who will be a conversation partner"
+                ></img>
               ) : (
-                <img src={girlImg}></img>
+                <img alt="A Chinese woman who will be a conversation partner"></img>
               )}
               <p>{props.LessonText.convoLineEleven}</p>
             </div>

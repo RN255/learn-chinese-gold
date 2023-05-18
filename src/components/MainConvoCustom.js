@@ -39,11 +39,20 @@ export default function MainConvoCustom(props) {
         >
           <div>
             {props.LessonText.convoLineOneCharacter === "boy" ? (
-              <img src={boyImg}></img>
+              <img
+                src={boyImg}
+                alt="A Chinese man who will be a conversation partner"
+              ></img>
             ) : props.LessonText.convoLineOneCharacter === "girl" ? (
-              <img src={girlImg}></img>
+              <img
+                src={girlImg}
+                alt="A Chinese woman who will be a conversation partner"
+              ></img>
             ) : props.LessonText.convoLineOneCharacter === "other" ? (
-              <img src={otherImg}></img>
+              <img
+                src={otherImg}
+                alt="A person who will be a conversation partner"
+              ></img>
             ) : null}
             <p>{props.LessonText.convoLineOne}</p>
           </div>
@@ -62,11 +71,20 @@ export default function MainConvoCustom(props) {
         >
           <div>
             {props.LessonText.convoLineTwoCharacter === "boy" ? (
-              <img src={boyImg}></img>
+              <img
+                src={boyImg}
+                alt="A Chinese man who will be a conversation partner"
+              ></img>
             ) : props.LessonText.convoLineTwoCharacter === "girl" ? (
-              <img src={girlImg}></img>
+              <img
+                src={girlImg}
+                alt="A Chinese woman who will be a conversation partner"
+              ></img>
             ) : props.LessonText.convoLineTwoCharacter === "other" ? (
-              <img src={otherImg}></img>
+              <img
+                src={otherImg}
+                alt="A person who will be a conversation partner"
+              ></img>
             ) : null}
             <p>{props.LessonText.convoLineTwo}</p>
           </div>
@@ -85,11 +103,20 @@ export default function MainConvoCustom(props) {
         >
           <div>
             {props.LessonText.convoLineThreeCharacter === "boy" ? (
-              <img src={boyImg}></img>
+              <img
+                src={boyImg}
+                alt="A Chinese man who will be a conversation partner"
+              ></img>
             ) : props.LessonText.convoLineThreeCharacter === "girl" ? (
-              <img src={girlImg}></img>
+              <img
+                src={girlImg}
+                alt="A Chinese woman who will be a conversation partner"
+              ></img>
             ) : props.LessonText.convoLineThreeCharacter === "other" ? (
-              <img src={otherImg}></img>
+              <img
+                src={otherImg}
+                alt="A person who will be a conversation partner"
+              ></img>
             ) : null}
             <p>{props.LessonText.convoLineThree}</p>
           </div>
@@ -108,11 +135,20 @@ export default function MainConvoCustom(props) {
         >
           <div>
             {props.LessonText.convoLineFourCharacter === "boy" ? (
-              <img src={boyImg}></img>
+              <img
+                src={boyImg}
+                alt="A Chinese man who will be a conversation partner"
+              ></img>
             ) : props.LessonText.convoLineFourCharacter === "girl" ? (
-              <img src={girlImg}></img>
+              <img
+                src={girlImg}
+                alt="A Chinese woman who will be a conversation partner"
+              ></img>
             ) : props.LessonText.convoLineFourCharacter === "other" ? (
-              <img src={otherImg}></img>
+              <img
+                src={otherImg}
+                alt="A person who will be a conversation partner"
+              ></img>
             ) : null}
             <p>{props.LessonText.convoLineFour}</p>
           </div>
@@ -133,11 +169,20 @@ export default function MainConvoCustom(props) {
           >
             <div>
               {props.LessonText.convoLineFiveCharacter === "boy" ? (
-                <img src={boyImg}></img>
+                <img
+                  src={boyImg}
+                  alt="A Chinese man who will be a conversation partner"
+                ></img>
               ) : props.LessonText.convoLineFiveCharacter === "girl" ? (
-                <img src={girlImg}></img>
+                <img
+                  src={girlImg}
+                  alt="A Chinese woman who will be a conversation partner"
+                ></img>
               ) : props.LessonText.convoLineFiveCharacter === "other" ? (
-                <img src={otherImg}></img>
+                <img
+                  src={otherImg}
+                  alt="A person who will be a conversation partner"
+                ></img>
               ) : null}
               <p>{props.LessonText.convoLineFive}</p>
             </div>
@@ -159,11 +204,20 @@ export default function MainConvoCustom(props) {
           >
             <div>
               {props.LessonText.convoLineSixCharacter === "boy" ? (
-                <img src={boyImg}></img>
+                <img
+                  src={boyImg}
+                  alt="A Chinese man who will be a conversation partner"
+                ></img>
               ) : props.LessonText.convoLineSixCharacter === "girl" ? (
-                <img src={girlImg}></img>
+                <img
+                  src={girlImg}
+                  alt="A Chinese woman who will be a conversation partner"
+                ></img>
               ) : props.LessonText.convoLineSixCharacter === "other" ? (
-                <img src={otherImg}></img>
+                <img
+                  src={otherImg}
+                  alt="A person who will be a conversation partner"
+                ></img>
               ) : null}
               <p>{props.LessonText.convoLineSix}</p>
             </div>
@@ -190,11 +244,20 @@ export default function MainConvoCustom(props) {
           >
             <div>
               {props.LessonText.convoLineSevenCharacter === "boy" ? (
-                <img src={boyImg}></img>
+                <img
+                  src={boyImg}
+                  alt="A Chinese man who will be a conversation partner"
+                ></img>
               ) : props.LessonText.convoLineSevenCharacter === "girl" ? (
-                <img src={girlImg}></img>
+                <img
+                  src={girlImg}
+                  alt="A Chinese woman who will be a conversation partner"
+                ></img>
               ) : props.LessonText.convoLineSevenCharacter === "other" ? (
-                <img src={otherImg}></img>
+                <img
+                  src={otherImg}
+                  alt="A person who will be a conversation partner"
+                ></img>
               ) : null}
               <p>{props.LessonText.convoLineSeven}</p>
             </div>
@@ -220,11 +283,20 @@ export default function MainConvoCustom(props) {
           >
             <div>
               {props.LessonText.convoLineEightCharacter === "boy" ? (
-                <img src={boyImg}></img>
+                <img
+                  src={boyImg}
+                  alt="A Chinese man who will be a conversation partner"
+                ></img>
               ) : props.LessonText.convoLineEightCharacter === "girl" ? (
-                <img src={girlImg}></img>
+                <img
+                  src={girlImg}
+                  alt="A Chinese woman who will be a conversation partner"
+                ></img>
               ) : props.LessonText.convoLineEightCharacter === "other" ? (
-                <img src={otherImg}></img>
+                <img
+                  src={otherImg}
+                  alt="A person who will be a conversation partner"
+                ></img>
               ) : null}
               <p>{props.LessonText.convoLineEight}</p>
             </div>
@@ -251,11 +323,20 @@ export default function MainConvoCustom(props) {
           >
             <div>
               {props.LessonText.convoLineNineCharacter === "boy" ? (
-                <img src={boyImg}></img>
+                <img
+                  src={boyImg}
+                  alt="A Chinese man who will be a conversation partner"
+                ></img>
               ) : props.LessonText.convoLineNineCharacter === "girl" ? (
-                <img src={girlImg}></img>
+                <img
+                  src={girlImg}
+                  alt="A Chinese woman who will be a conversation partner"
+                ></img>
               ) : props.LessonText.convoLineNineCharacter === "other" ? (
-                <img src={otherImg}></img>
+                <img
+                  src={otherImg}
+                  alt="A person who will be a conversation partner"
+                ></img>
               ) : null}
               <p>{props.LessonText.convoLineNine}</p>
             </div>
@@ -282,11 +363,20 @@ export default function MainConvoCustom(props) {
           >
             <div>
               {props.LessonText.convoLineTenCharacter === "boy" ? (
-                <img src={boyImg}></img>
+                <img
+                  src={boyImg}
+                  alt="A Chinese man who will be a conversation partner"
+                ></img>
               ) : props.LessonText.convoLineTenCharacter === "girl" ? (
-                <img src={girlImg}></img>
+                <img
+                  src={girlImg}
+                  alt="A Chinese woman who will be a conversation partner"
+                ></img>
               ) : props.LessonText.convoLineTenCharacter === "other" ? (
-                <img src={otherImg}></img>
+                <img
+                  src={otherImg}
+                  alt="A person who will be a conversation partner"
+                ></img>
               ) : null}
               <p>{props.LessonText.convoLineTen}</p>
             </div>
@@ -313,11 +403,20 @@ export default function MainConvoCustom(props) {
           >
             <div>
               {props.LessonText.convoLineElevenCharacter === "boy" ? (
-                <img src={boyImg}></img>
+                <img
+                  src={boyImg}
+                  alt="A Chinese man who will be a conversation partner"
+                ></img>
               ) : props.LessonText.convoLineElevenCharacter === "girl" ? (
-                <img src={girlImg}></img>
+                <img
+                  src={girlImg}
+                  alt="A Chinese woman who will be a conversation partner"
+                ></img>
               ) : props.LessonText.convoLineElevenCharacter === "other" ? (
-                <img src={otherImg}></img>
+                <img
+                  src={otherImg}
+                  alt="A person who will be a conversation partner"
+                ></img>
               ) : null}
               <p>{props.LessonText.convoLineEleven}</p>
             </div>

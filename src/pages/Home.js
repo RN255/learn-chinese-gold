@@ -80,6 +80,10 @@ const Home = (props) => {
 
       <Audio LessonText={props.LessonText} Flashing={true}></Audio>
 
+      <audio controls>
+        <source src="https://soundcloud.com/talkinmandarinchinese/0-tones?si=3f89b6b394e84d2ba01f24590d0379eb&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"></source>
+      </audio>
+
       <div className="container homeItemCustomMargin">
         <div className="row text-center">
           <p className="homePageInstructions">
