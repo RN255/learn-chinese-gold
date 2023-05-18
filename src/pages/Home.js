@@ -4,7 +4,7 @@ import boyImg from "../assets/images/boy.png";
 import girlImg from "../assets/images/girl.png";
 import MainConvo from "../components/MainConvo";
 import TranslatedWords from "../components/TranslatedWords";
-import Audio from "../components/Audio";
+// import Audio from "../components/Audio";
 import KeyPhrases from "../components/KeyPhrases";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -78,7 +78,7 @@ const Home = (props) => {
 
       {/* <TitleSection LessonText={props.LessonText}></TitleSection> */}
 
-      <Audio LessonText={props.LessonText} Flashing={true}></Audio>
+      {/* <Audio LessonText={props.LessonText} Flashing={true}></Audio> */}
 
       <div className="container homeItemCustomMargin">
         <div className="row text-center">
