@@ -54,7 +54,7 @@ export default function TranslatedWords(props) {
         </>
       )}
 
-      {props.LessonText.translationPinWordThree && (
+      {props.LessonText.translationChinWordThree && (
         <>
           <div className="row">
             <div className="col d-flex translationChinWord">
@@ -77,7 +77,7 @@ export default function TranslatedWords(props) {
         </>
       )}
 
-      {props.LessonText.translationPinWordFour && (
+      {props.LessonText.translationChinWordFour && (
         <>
           <div className="row">
             <div className="col d-flex translationChinWord">
@@ -169,7 +169,7 @@ export default function TranslatedWords(props) {
         </>
       )}
 
-      {props.LessonText.translationPinWordEight && (
+      {props.LessonText.translationChinWordEight && (
         <>
           <div className="row">
             <div className="col d-flex translationChinWord">
@@ -445,7 +445,7 @@ export default function TranslatedWords(props) {
         </>
       )}
 
-      {props.LessonText.translationChinWordNineteen && (
+      {props.LessonText.translationChinWordTwenty && (
         <>
           <div className="row">
             <div className="col d-flex translationChinWord">
