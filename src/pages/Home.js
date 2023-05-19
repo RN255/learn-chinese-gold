@@ -1,5 +1,5 @@
 import React from "react";
-// import "../styles/styles.css";
+import "../styles/styles.css";
 import boyImgHome from "../assets/images/boyHome.png";
 import girlImgHome from "../assets/images/girlHome.png";
 import MainConvo from "../components/MainConvo";

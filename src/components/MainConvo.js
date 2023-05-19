@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import "../styles/styles.css";
+import "../styles/styles.css";
 import boyImg from "../assets/images/boy.png";
 import girlImg from "../assets/images/girl.png";
 

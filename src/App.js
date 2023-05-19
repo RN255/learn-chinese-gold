@@ -1,4 +1,4 @@
-// import "./App.css";
+import "./App.css";
 import Home from "./pages/Home";
 import LessonsIndex from "./pages/LessonsIndex";
 import Lesson from "./pages/Lesson";

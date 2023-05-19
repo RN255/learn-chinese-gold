@@ -1,6 +1,6 @@
 import React from "react";
 import audioList from "../modules/audioList";
-// import "../styles/styles.css";
+import "../styles/styles.css";
 
 export default function Audio(props) {
   return (
