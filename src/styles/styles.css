@@ -2,8 +2,8 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&family=Noto+Serif+SC:wght@200;300;400;500;600;700;900&display=swap"); */
 
 * {
-  /* font-family: "Noto Serif SC", serif, "Noto Sans SC", sans-serif; */
-  font-family: "Noto Sans SC", sans-serif;
+  font-family: "Noto Serif SC", serif, "Noto Sans SC", sans-serif;
+  /* font-family: "Noto Sans SC", sans-serif; */
 }
 
 /* nav bar  */
