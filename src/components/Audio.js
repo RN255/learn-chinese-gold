@@ -1,6 +1,6 @@
 import React from "react";
 import audioList from "../modules/audioList";
-import "../styles/styles.css";
+// import "../styles/styles.css";
 
 export default function Audio(props) {
   return (
@@ -9,7 +9,8 @@ export default function Audio(props) {
         <audio
           src={audioList[`audio${props.LessonText.lessonNumber}`]}
           controls
-          className={ "p-0 m-0" +
+          className={
+            "p-0 m-0" +
             (props.Flashing ? "homePageBorderElement flashingBorder" : "")
           }
         />
