@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/styles.css";
-import boyImg from "../assets/images/boy.png";
-import girlImg from "../assets/images/girl.png";
+import boyImgHome from "../assets/images/boyHome.png";
+import girlImgHome from "../assets/images/girlHome.png";
 import MainConvo from "../components/MainConvo";
 import TranslatedWords from "../components/TranslatedWords";
 import Audio from "../components/Audio";
@@ -26,7 +26,7 @@ const Home = (props) => {
             <div className="mainPageConvoSample d-flex align-items-center rounded mx-auto mt-5">
               <div className="p-4">
                 <img
-                  src={boyImg}
+                  src={boyImgHome}
                   alt="A Chinese man who will be a conversation partner"
                 ></img>
               </div>
@@ -52,7 +52,7 @@ const Home = (props) => {
             <div className="mainPageConvoSample d-flex align-items-center rounded mx-auto mt-5">
               <div className="p-4">
                 <img
-                  src={girlImg}
+                  src={girlImgHome}
                   alt="A Chinese woman who will be a conversation partner"
                 ></img>
               </div>
