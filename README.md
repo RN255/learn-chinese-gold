@@ -1,3 +1,39 @@
+## Project Name: Dan Dan Chinese (React)  
+
+A website for beginners to learn Chinese conversation. Created using React and hosted on IONOS.
+
+## How to use
+
+website is live at: https://dandanchinese.com/
+
+## Screenshots
+![Dan Dan Chinese screenshot](https://github.com/RN255/learn-chinese-gold/blob/master/src/assets/images/DanDanScreenshot.jpg)
+
+## Motivation
+
+I wanted to create a full website that was published online.
+
+## Tech used
+- React
+- Bootstrap
+- IONOS
+
+## Project features
+- 
+
+
+## Lessons learnt
+
+
+## future development
+
+
+
+## Standard React README
+<details>
+<summary>click to view</summary>
+<br>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
