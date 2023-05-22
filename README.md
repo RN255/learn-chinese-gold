@@ -19,14 +19,20 @@ I wanted to create a full website that was published online.
 - IONOS
 
 ## Project features
-- 
-
+- 51 Chinese lessons
+- conversation audio, Chinese, pinyin, English translations, word list, key phrases
 
 ## Lessons learnt
-
+- Improved bootstrap and react skills
+- How to make a larger site with many pages
+- How to render data from a file - the file was an array of objects.
+- How to deploy a react website online via a hosting site
 
 ## future development
-
+- More lessons
+- Memebers log in so users can track their progress
+- flashcards
+- quizes and scores for students
 
 
 ## Standard React README
