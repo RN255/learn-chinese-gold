@@ -286,6 +286,17 @@ audio {
   color: #1d6daa !important;
 }
 
+/* info page  */
+
+.infoPage h2 {
+  color: #2a9df4;
+}
+
+.infoPage ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 /* media query  */
 
 @media screen and (max-width: 400px) {

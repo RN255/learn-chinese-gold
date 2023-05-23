@@ -13,8 +13,7 @@ export default function Footer() {
           <ul className="nav col-md-4 justify-content-center justify-content-md-end">
             <li className="nav-item">
               <Nav.Link className="nav-link px-2 footerLink" href="/" to="/">
-                {" "}
-                Home{" "}
+                Home
               </Nav.Link>
             </li>
             <li className="nav-item">
@@ -23,8 +22,16 @@ export default function Footer() {
                 href="/lessonsIndex"
                 to="/lessonsIndex"
               >
-                {" "}
-                Lessons{" "}
+                Lessons
+              </Nav.Link>
+            </li>
+            <li className="nav-item">
+              <Nav.Link
+                className="nav-link px-2 text-body-secondary footerLink"
+                href="/info"
+                to="/info"
+              >
+                Info
               </Nav.Link>
             </li>
           </ul>

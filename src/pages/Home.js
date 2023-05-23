@@ -19,7 +19,7 @@ const Home = (props) => {
             <h1 className="display-6 fw-bold">
               Mandarin Chinese dialogues for beginners
             </h1>
-            <p>Learn Chinese online for free with conversation dialgoues</p>
+            <p>Learn Chinese online for free with conversation dialogues</p>
           </div>
 
           <div className="col-lg-6">
