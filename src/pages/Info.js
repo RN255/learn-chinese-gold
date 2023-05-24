@@ -48,6 +48,19 @@ export default function Info() {
                 annotation, Chinese text input and more.
               </p>
             </li>
+            <li>
+              <p>
+                <a
+                  href="https://omniglot.com/chinese/mandarin.htm"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Omniglot - Mandarin
+                </a>{" "}
+                - Online encyclopedia of writing systems & languages - Extensive
+                guide to Mandarin Chinese, lessons, useful links and more.
+              </p>
+            </li>
           </ul>
         </div>
       </div>
