@@ -10,6 +10,13 @@ export default function Footer() {
             © 2023 Dan Dan Chinese
           </p>
 
+          <div className="text-center col-md-4 p-3 p-md-0">
+            <p className="my-0">
+              Like this content?<br></br>
+              Please <a href="https://ko-fi.com/dandanchinese" target="_blank" rel="noreferrer">donate</a> and support us!
+            </p>
+          </div>
+
           <ul className="nav col-md-4 justify-content-center justify-content-md-end">
             <li className="nav-item">
               <Nav.Link className="nav-link px-2 footerLink" href="/" to="/">
