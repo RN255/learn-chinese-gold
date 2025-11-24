@@ -1,6 +1,6 @@
 ## Project Name: Dan Dan Chinese (React)  
 
-A website for beginners to learn Chinese conversation. Created using React and hosted on IONOS. The website got some views and some positive feedback but it wasn't going to be commercially viable so it's been taken offline as of May 2024.
+A website for beginners to learn Chinese conversation. Created using React and hosted on IONOS. The website got some views and some positive feedback but sadly it wasn't commercially successful!
 
 ## How to use
 
